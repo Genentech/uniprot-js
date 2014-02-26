@@ -1,0 +1,362 @@
+ID   CAC1C_RABIT             Reviewed;        2171 AA.
+AC   P15381; Q03716; Q28676; Q99243;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1990, sequence version 1.
+DT   03-APR-2013, entry version 112.
+DE   RecName: Full=Voltage-dependent L-type calcium channel subunit alpha-1C;
+DE   AltName: Full=Calcium channel, L type, alpha-1 polypeptide, isoform 1, cardiac muscle;
+DE   AltName: Full=Smooth muscle calcium channel blocker receptor;
+DE            Short=CACB-receptor;
+DE   AltName: Full=Voltage-gated calcium channel subunit alpha Cav1.2;
+GN   Name=CACNA1C; Synonyms=CACH2, CACN2, CACNL1A1, CCHL1A1;
+OS   Oryctolagus cuniculus (Rabbit).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae;
+OC   Oryctolagus.
+OX   NCBI_TaxID=9986;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Heart;
+RX   PubMed=2474130; DOI=10.1038/340230a0;
+RA   Mikami A., Imoto K., Tanabe T., Ni Idomme T., Mori Y., Takeshima H.,
+RA   Narumiya S., Numa S.;
+RT   "Primary structure and functional expression of the cardiac
+RT   dihydropyridine-sensitive calcium channel.";
+RL   Nature 340:230-233(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Heart, and Lung;
+RX   PubMed=2169433; DOI=10.1016/0014-5793(90)81205-3;
+RA   Biel M., Ruth P., Bosse E., Hullin R., Stuehmer W., Flockerzi V.,
+RA   Hoffmann F.;
+RT   "Primary structure and functional expression of a high voltage
+RT   activated calcium channel from rabbit lung.";
+RL   FEBS Lett. 269:409-412(1990).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-98 (ISOFORM 5).
+RC   TISSUE=Heart muscle;
+RX   PubMed=1652442; DOI=10.1111/j.1432-1033.1991.tb21051.x;
+RA   Biel M., Hullin R., Freundner S., Singer D., Dascal N., Flockerzi V.,
+RA   Hofmann F.;
+RT   "Tissue-specific expression of high-voltage-activated dihydropyridine-
+RT   sensitive L-type calcium channels.";
+RL   Eur. J. Biochem. 200:81-88(1991).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1192-1485 (ISOFORM 2).
+RC   TISSUE=Heart;
+RX   PubMed=2173707;
+RA   Perez-Reyes E., Wei X., Castellano A., Birnbaumer L.;
+RT   "Molecular diversity of L-type calcium channels. Evidence for
+RT   alternative splicing of the transcripts of three non-allelic genes.";
+RL   J. Biol. Chem. 265:20430-20436(1990).
+RN   [5]
+RP   MUTAGENESIS, AND CALCIUM-BINDING.
+RX   PubMed=8232554; DOI=10.1038/366158a0;
+RA   Yang J., Ellinor P.T., Sather W.A., Zhang J.-F., Tsien R.W.;
+RT   "Molecular determinants of Ca2+ selectivity and ion permeation in L-
+RT   type Ca2+ channels.";
+RL   Nature 366:158-161(1993).
+RN   [6]
+RP   MUTAGENESIS OF CYS-168.
+RX   PubMed=9502794;
+RA   Ren D., Xu H., Eberl D.F., Chopra M., Hall L.M.;
+RT   "A mutation affecting dihydropyridine-sensitive current levels and
+RT   activation kinetics in Drosophila muscle and mammalian heart calcium
+RT   channels.";
+RL   J. Neurosci. 18:2335-2341(1998).
+RN   [7]
+RP   PHOSPHORYLATION BY PKA.
+RX   PubMed=1325377; DOI=10.1016/0014-5793(92)80804-P;
+RA   Yoshida A., Takahashi M., Nishimura S., Takeshima H., Kokubun S.;
+RT   "Cyclic AMP-dependent phosphorylation and regulation of the cardiac
+RT   dihydropyridine-sensitive Ca channel.";
+RL   FEBS Lett. 309:343-349(1992).
+RN   [8]
+RP   BETA-SUBUNIT BINDING DOMAIN.
+RX   PubMed=7509046; DOI=10.1038/368067a0;
+RA   Pragnell M., de Waard M., Mori Y., Tanabe T., Snutch T.P.,
+RA   Campbell K.P.;
+RT   "Calcium channel beta-subunit binds to a conserved motif in the I-II
+RT   cytoplasmic linker of the alpha 1-subunit.";
+RL   Nature 368:67-70(1994).
+RN   [9]
+RP   EF-HAND MOTIF AND CALCIUM INACTIVATION.
+RX   PubMed=7491499; DOI=10.1126/science.270.5241.1502;
+RA   de Leon M., Wang Y., Jones L., Perez-Reyes E., Wei X., Soong T.W.,
+RA   Snutch T.P., Yue D.T.;
+RT   "Essential Ca(2+)-binding motif for Ca(2+)-sensitive inactivation of
+RT   L-type Ca2+ channels.";
+RL   Science 270:1502-1505(1995).
+RN   [10]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=17525370; DOI=10.1161/CIRCRESAHA.106.146399;
+RA   Yada H., Murata M., Shimoda K., Yuasa S., Kawaguchi H., Ieda M.,
+RA   Adachi T., Murata M., Ogawa S., Fukuda K.;
+RT   "Dominant negative suppression of Rad leads to QT prolongation and
+RT   causes ventricular arrhythmias via modulation of L-type Ca2+ channels
+RT   in the heart.";
+RL   Circ. Res. 101:69-77(2007).
+CC   -!- FUNCTION: Voltage-sensitive calcium channels (VSCC) mediate the
+CC       entry of calcium ions into excitable cells and are also involved
+CC       in a variety of calcium-dependent processes, including muscle
+CC       contraction, hormone or neurotransmitter release, gene expression,
+CC       cell motility, cell division and cell death. The isoform alpha-1C
+CC       gives rise to L-type calcium currents. Long-lasting (L-type)
+CC       calcium channels belong to the 'high-voltage activated' (HVA)
+CC       group. They are blocked by dihydropyridines (DHP),
+CC       phenylalkylamines, benzothiazepines, and by omega-agatoxin-IIIA
+CC       (omega-Aga-IIIA). They are however insensitive to omega-conotoxin-
+CC       GVIA (omega-CTx-GVIA) and omega-agatoxin-IVA (omega-Aga-IVA).
+CC       Calcium channels containing the alpha-1C subunit play an important
+CC       role in excitation-contraction coupling in the heart. Binding of
+CC       calmodulin or CABP1 at the same regulatory sites results in an
+CC       opposit effects on the channel function (By similarity).
+CC   -!- SUBUNIT: Voltage-dependent calcium channels are multisubunit
+CC       complexes, consisting of alpha-1, alpha-2, beta and delta subunits
+CC       in a 1:1:1:1 ratio. The channel activity is directed by the pore-
+CC       forming and voltage-sensitive alpha-1 subunit. In many cases, this
+CC       subunit is sufficient to generate voltage-sensitive calcium
+CC       channel activity. The auxiliary subunits beta and alpha-2/delta
+CC       linked by a disulfide bridge regulate the channel activity.
+CC       Interacts with CABP1 and CACNA2D4 (By similarity). Interacts (via
+CC       C-terminal CDB motif) with CABP5; in a calcium-dependent manner
+CC       (By similarity).
+CC   -!- SUBCELLULAR LOCATION: Membrane; Multi-pass membrane protein. Cell
+CC       membrane. Note=The interaction between RRAD and CACNB2 regulates
+CC       its trafficking to the cell membrane.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=5;
+CC         Comment=Additional isoforms seem to exist;
+CC       Name=1; Synonyms=CACH2A;
+CC         IsoId=P15381-1; Sequence=Displayed;
+CC       Name=2; Synonyms=CACH2C;
+CC         IsoId=P15381-2; Sequence=VSP_000906;
+CC       Name=3; Synonyms=CACH2D;
+CC         IsoId=P15381-3; Sequence=VSP_000907;
+CC       Name=4; Synonyms=Lung;
+CC         IsoId=P15381-4; Sequence=VSP_000902, VSP_000904, VSP_000905,
+CC                                  VSP_000906;
+CC       Name=5; Synonyms=C141;
+CC         IsoId=P15381-5; Sequence=VSP_000902, VSP_000903;
+CC   -!- TISSUE SPECIFICITY: Expression in cardiac muscle. In lung,
+CC       expressed in airway and vascular smooth muscle cells.
+CC   -!- DOMAIN: Each of the four internal repeats contains five
+CC       hydrophobic transmembrane segments (S1, S2, S3, S5, S6) and one
+CC       positively charged transmembrane segment (S4). S4 segments
+CC       probably represent the voltage-sensor and are characterized by a
+CC       series of positively charged amino acids at every third position.
+CC   -!- DOMAIN: Binding of intracellular calcium through the EF-hand motif
+CC       inhibits the opening of the channel.
+CC   -!- PTM: Phosphorylation by PKA activates the channel.
+CC   -!- SIMILARITY: Belongs to the calcium channel alpha-1 subunit
+CC       (TC 1.A.1.11) family. CACNA1C subfamily.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X15539; CAA33546.1; -; mRNA.
+DR   EMBL; X55763; CAA39289.1; -; mRNA.
+DR   EMBL; X60782; CAA43196.1; -; mRNA.
+DR   EMBL; M57974; AAA31182.1; -; mRNA.
+DR   PIR; S05054; S05054.
+DR   PIR; S11339; S11339.
+DR   RefSeq; NP_001129994.1; NM_001136522.1.
+DR   UniGene; Ocu.1835; -.
+DR   UniGene; Ocu.3254; -.
+DR   PDB; 4DEY; X-ray; 1.95 A; B=435-539.
+DR   PDBsum; 4DEY; -.
+DR   ProteinModelPortal; P15381; -.
+DR   SMR; P15381; 1642-1670.
+DR   GeneID; 100101555; -.
+DR   CTD; 100101555; -.
+DR   eggNOG; COG1226; -.
+DR   HOVERGEN; HBG050763; -.
+DR   BindingDB; P15381; -.
+DR   ChEMBL; CHEMBL2830; -.
+DR   GO; GO:0014069; C:postsynaptic density; ISS:UniProtKB.
+DR   GO; GO:0005891; C:voltage-gated calcium channel complex; ISS:UniProtKB.
+DR   GO; GO:0005516; F:calmodulin binding; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005245; F:voltage-gated calcium channel activity; ISS:UniProtKB.
+DR   GO; GO:0007204; P:elevation of cytosolic calcium ion concentration; ISS:UniProtKB.
+DR   InterPro; IPR005821; Ion_trans_dom.
+DR   InterPro; IPR014873; VDCC_a1su_IQ.
+DR   InterPro; IPR005451; VDCC_L_a1csu.
+DR   InterPro; IPR005446; VDCC_L_a1su.
+DR   InterPro; IPR002077; VDCCAlpha1.
+DR   PANTHER; PTHR10037:SF47; PTHR10037:SF47; 1.
+DR   Pfam; PF08763; Ca_chan_IQ; 1.
+DR   Pfam; PF00520; Ion_trans; 4.
+DR   PRINTS; PR00167; CACHANNEL.
+DR   PRINTS; PR01630; LVDCCALPHA1.
+DR   PRINTS; PR01635; LVDCCALPHA1C.
+DR   SMART; SM01062; Ca_chan_IQ; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; Calcium; Calcium channel;
+KW   Calcium transport; Cell membrane; Complete proteome; Disulfide bond;
+KW   Glycoprotein; Ion channel; Ion transport; Membrane; Metal-binding;
+KW   Phosphoprotein; Reference proteome; Repeat; Transmembrane;
+KW   Transmembrane helix; Transport; Voltage-gated channel.
+FT   CHAIN         1   2171       Voltage-dependent L-type calcium channel
+FT                                subunit alpha-1C.
+FT                                /FTId=PRO_0000053930.
+FT   TOPO_DOM      1    154       Cytoplasmic (Potential).
+FT   TRANSMEM    155    173       Helical; Name=S1 of repeat I.
+FT   TOPO_DOM    174    190       Extracellular (Potential).
+FT   TRANSMEM    191    211       Helical; Name=S2 of repeat I.
+FT   TOPO_DOM    212    223       Cytoplasmic (Potential).
+FT   TRANSMEM    224    242       Helical; Name=S3 of repeat I.
+FT   TOPO_DOM    243    262       Extracellular (Potential).
+FT   TRANSMEM    263    281       Helical; Name=S4 of repeat I.
+FT   TOPO_DOM    282    300       Cytoplasmic (Potential).
+FT   TRANSMEM    301    320       Helical; Name=S5 of repeat I.
+FT   TOPO_DOM    321    410       Extracellular (Potential).
+FT   TRANSMEM    411    435       Helical; Name=S6 of repeat I.
+FT   TOPO_DOM    436    554       Cytoplasmic (Potential).
+FT   TRANSMEM    555    573       Helical; Name=S1 of repeat II.
+FT   TOPO_DOM    574    588       Extracellular (Potential).
+FT   TRANSMEM    589    608       Helical; Name=S2 of repeat II.
+FT   TOPO_DOM    609    616       Cytoplasmic (Potential).
+FT   TRANSMEM    617    635       Helical; Name=S3 of repeat II.
+FT   TOPO_DOM    636    645       Extracellular (Potential).
+FT   TRANSMEM    646    664       Helical; Name=S4 of repeat II.
+FT   TOPO_DOM    665    683       Cytoplasmic (Potential).
+FT   TRANSMEM    684    703       Helical; Name=S5 of repeat II.
+FT   TOPO_DOM    704    758       Extracellular (Potential).
+FT   TRANSMEM    759    783       Helical; Name=S6 of repeat II.
+FT   TOPO_DOM    784    930       Cytoplasmic (Potential).
+FT   TRANSMEM    931    949       Helical; Name=S1 of repeat III.
+FT   TOPO_DOM    950    965       Extracellular (Potential).
+FT   TRANSMEM    966    985       Helical; Name=S2 of repeat III.
+FT   TOPO_DOM    986    997       Cytoplasmic (Potential).
+FT   TRANSMEM    998   1016       Helical; Name=S3 of repeat III.
+FT   TOPO_DOM   1017   1023       Extracellular (Potential).
+FT   TRANSMEM   1024   1042       Helical; Name=S4 of repeat III.
+FT   TOPO_DOM   1043   1061       Cytoplasmic (Potential).
+FT   TRANSMEM   1062   1081       Helical; Name=S5 of repeat III.
+FT   TOPO_DOM   1082   1171       Extracellular (Potential).
+FT   TRANSMEM   1172   1196       Helical; Name=S6 of repeat III.
+FT   TOPO_DOM   1197   1249       Cytoplasmic (Potential).
+FT   TRANSMEM   1250   1268       Helical; Name=S1 of repeat IV.
+FT   TOPO_DOM   1269   1283       Extracellular (Potential).
+FT   TRANSMEM   1284   1303       Helical; Name=S2 of repeat IV.
+FT   TOPO_DOM   1304   1311       Cytoplasmic (Potential).
+FT   TRANSMEM   1312   1330       Helical; Name=S3 of repeat IV.
+FT   TOPO_DOM   1331   1354       Extracellular (Potential).
+FT   TRANSMEM   1355   1373       Helical; Name=S4 of repeat IV.
+FT   TOPO_DOM   1374   1392       Cytoplasmic (Potential).
+FT   TRANSMEM   1393   1412       Helical; Name=S5 of repeat IV.
+FT   TOPO_DOM   1413   1481       Extracellular (Potential).
+FT   TRANSMEM   1482   1506       Helical; Name=S6 of repeat IV.
+FT   TOPO_DOM   1507   2171       Cytoplasmic (Potential).
+FT   REPEAT      141    438       I.
+FT   REPEAT      540    786       II.
+FT   REPEAT      917   1199       III.
+FT   REPEAT     1236   1509       IV.
+FT   CA_BIND    1535   1546
+FT   REGION      458    475       Binding to the beta subunit (By
+FT                                similarity).
+FT   REGION     1119   1209       Dihydropyridine binding (By similarity).
+FT   REGION     1460   1517       Dihydropyridine binding (By similarity).
+FT   REGION     1474   1520       Phenylalkylamine binding (By similarity).
+FT   COMPBIAS    684    690       Poly-Leu.
+FT   COMPBIAS    798    804       Poly-Glu.
+FT   COMPBIAS   1177   1183       Poly-Ile.
+FT   SITE        393    393       Calcium ion selectivity and permeability.
+FT   SITE        736    736       Calcium ion selectivity and permeability.
+FT   SITE       1145   1145       Calcium ion selectivity and permeability.
+FT   SITE       1446   1446       Calcium ion selectivity and permeability.
+FT   MOD_RES     845    845       Phosphoserine (By similarity).
+FT   MOD_RES    1517   1517       Phosphoserine; by PKA (Potential).
+FT   MOD_RES    1920   1920       Phosphoserine; by PKA (Potential).
+FT   MOD_RES    1928   1928       Phosphoserine; by PKA (Potential).
+FT   CARBOHYD    183    183       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    358    358       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD   1418   1418       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD   1469   1469       N-linked (GlcNAc...) (Potential).
+FT   VAR_SEQ       1     46       MLRALVQPATPAYQPLPSHLSAETESTCKGTVVHEAQLNHF
+FT                                YISPG -> MVNENTRMYIPEENHQ (in isoform 4
+FT                                and isoform 5).
+FT                                /FTId=VSP_000902.
+FT   VAR_SEQ      66     79       Missing (in isoform 5).
+FT                                /FTId=VSP_000903.
+FT   VAR_SEQ     402    421       MQDAMGYELPWVYFVSLVIF -> VNDAVGRDWPWIYFVTL
+FT                                III (in isoform 4).
+FT                                /FTId=VSP_000904.
+FT   VAR_SEQ     494    494       M -> RGTPAGLHAQKKGKFAWFSHSTETHV (in
+FT                                isoform 4).
+FT                                /FTId=VSP_000905.
+FT   VAR_SEQ    1307   1334       GYFSDPWNVFDFLIVIGSIIDVILSETN -> HYFCDAWNT
+FT                                FDALIVVGSIVDIAITEVH (in isoform 2 and
+FT                                isoform 4).
+FT                                /FTId=VSP_000906.
+FT   VAR_SEQ    1335   1345       Missing (in isoform 3).
+FT                                /FTId=VSP_000907.
+FT   MUTAGEN     168    168       C->G: Small reduction of current
+FT                                amplitude.
+FT   MUTAGEN     168    168       C->K,W: No current.
+FT   MUTAGEN     168    168       C->S: No effect.
+FT   MUTAGEN     168    168       C->Y: Slower channel activation and
+FT                                reduction of current amplitude.
+FT   MUTAGEN     393    393       E->K: Drastic reduction of barium
+FT                                permeability. Reduction of calcium block
+FT                                of lithium currents.
+FT   MUTAGEN     393    393       E->Q: Attenuates calcium block of inward
+FT                                barium, lithium, or cadmium currents.
+FT   MUTAGEN     736    736       E->K: Drastic reduction of barium
+FT                                permeability. Reduction of calcium block
+FT                                of lithium currents.
+FT   MUTAGEN     736    736       E->Q: Attenuates calcium block of inward
+FT                                barium, lithium, or cadmium currents.
+FT   MUTAGEN    1145   1145       E->K: Drastic reduction of barium
+FT                                permeability. Reduction of calcium block
+FT                                of lithium currents.
+FT   MUTAGEN    1145   1145       E->Q: Attenuates calcium block of inward
+FT                                barium, lithium, or cadmium currents.
+FT   MUTAGEN    1446   1446       E->K: Moderate reduction of barium
+FT                                permeability. Reduction of calcium block
+FT                                of lithium currents.
+FT   MUTAGEN    1446   1446       E->Q: Attenuates calcium block of inward
+FT                                barium, lithium, or cadmium currents.
+FT   CONFLICT   1346   1346       N -> S (in Ref. 4; AAA31182).
+FT   CONFLICT   1468   1468       H -> S (in Ref. 4; AAA31182).
+FT   HELIX       451    475
+SQ   SEQUENCE   2171 AA;  242784 MW;  B64F08F09D71C65D CRC64;
+     MLRALVQPAT PAYQPLPSHL SAETESTCKG TVVHEAQLNH FYISPGGSNY GSPRPAHANM
+     NANAAAGLAP EHIPTPGAAL SWQAAIDAAR QAKLMGSAGN ATISTVSSTQ RKRQQYGKPK
+     KQGSTTATRP PRALLCLTLK NPIRRACISI VEWKPFEIII LLTIFANCVA LAIYIPFPED
+     DSNATNSNLE RVEYLFLIIF TVEAFLKVIA YGLLFHPNAY LRNGWNLLDF IIVVVGLFSA
+     ILEQATKADG ANALGGKGAG FDVKALRAFR VLRPLRLVSG VPSLQVVLNS IIKAMVPLLH
+     IALLVLFVII IYAIIGLELF MGKMHKTCYN QEGVADVPAE DDPSPCALET GHGRQCQNGT
+     VCKPGWDGPK HGITNFDNFA FAMLTVFQCI TMEGWTDVLY WMQDAMGYEL PWVYFVSLVI
+     FGSFFVLNLV LGVLSGEFSK EREKAKARGD FQKLREKQQL EEDLKGYLDW ITQAEDIDPE
+     NEDEGMDEEK PRNMSMPTSE TESVNTENVA GGDIEGENCG ARLAHRISKS KFSRYWRRWN
+     RFCRRKCRAA VKSNVFYWLV IFLVFLNTLT IASEHYNQPH WLTEVQDTAN KALLALFTAE
+     MLLKMYSLGL QAYFVSLFNR FDCFIVCGGI LETILVETKV MSPLGISVLR CVRLLRIFKI
+     TRYWNSLSNL VASLLNSVRS IASLLLLLFL FIIIFSLLGM QLFGGKFNFD EMQTRRSTFD
+     NFPQSLLTVF QILTGEDWNS VMYDGIMAYG GPSFPGMLVC IYFIILFICG NYILLNVFLA
+     IAVDNLADAE SLTSAQKEEE EEKERKKLAR TASPEKKQEV VGKPALEEAK EEKIELKSIT
+     ADGESPPTTK INMDDLQPNE SEDKSPYPNP ETTGEEDEEE PEMPVGPRPR PLSELHLKEK
+     AVPMPEASAF FIFSPNNRFR LQCHRIVNDT IFTNLILFFI LLSSISLAAE DPVQHTSFRN
+     HILFYFDIVF TTIFTIEIAL KMTAYGAFLH KGSFCRNYFN ILDLLVVSVS LISFGIQSSA
+     INVVKILRVL RVLRPLRAIN RAKGLKHVVQ CVFVAIRTIG NIVIVTTLLQ FMFACIGVQL
+     FKGKLYTCSD SSKQTEAECK GNYITYKDGE VDHPIIQPRS WENSKFDFDN VLAAMMALFT
+     VSTFEGWPEL LYRSIDSHTE DKGPIYNYRV EISIFFIIYI IIIAFFMMNI FVGFVIVTFQ
+     EQGEQEYKNC ELDKNQRQCV EYALKARPLR RYIPKNQHQY KVWYVVNSTY FEYLMFVLIL
+     LNTICLAMQH YGQSCLFKIA MNILNMLFTG LFTVEMILKL IAFKPKGYFS DPWNVFDFLI
+     VIGSIIDVIL SETNPAEHTQ CSPSMNAEEN SRISITFFRL FRVMRLVKLL SRGEGIRTLL
+     WTFIKSFQAL PYVALLIVML FFIYAVIGMQ VFGKIALNDT TEINRNNNFQ TFPQAVLLLF
+     RCATGEAWQD IMLACMPGKK CAPESEPHNS TEGETPCGSS FAVFYFISFY MLCAFLIINL
+     FVAVIMDNFD YLTRDWSILG PHHLDEFKRI WAEYDPEAKG RIKHLDVVTL LRRIQPPLGF
+     GKLCPHRVAC KRLVSMNMPL NSDGTVMFNA TLFALVRTAL RIKTEGNLEQ ANEELRAIIK
+     KIWKRTSMKL LDQVVPPAGD DEVTVGKFYA TFLIQEYFRK FKKRKEQGLV GKPSQRNALS
+     LQAGLRTLHD IGPEIRRAIS GDLTAEEELD KAMKEAVSAA SEDDIFRRAG GLFGNHVSYY
+     QSDSRSAFPQ TFTTQRPLHI SKAGNNQGDT ESPSHEKLVD STFTPSSYSS TGSNANINNA
+     NNTALGRLPR PAGYPSTVST VEGHGSPLSP AVRAQEAAWK LSSKRCHSQE SQIAMACQEG
+     ASQDDNYDVR IGEDAECCSE PSLLSTEMLS YQDDENRQLA PPEEEKRDIR LSPKKGFLRS
+     ASLGRRASFH LECLKRQKNQ GGDISQKTVL PLHLVHHQAL AVAGLSPLLQ RSHSPTSLPR
+     PCATPPATPG SRGWPPQPIP TLRLEGADSS EKLNSSFPSI HCGSWSGENS PCRGDSSAAR
+     RARPVSLTVP SQAGAQGRQF HGSASSLVEA VLISEGLGQF AQDPKFIEVT TQELADACDL
+     TIEEMENAAD DILSGGARQS PNGTLLPFVN RRDPGRDRAG QNEQDASGAC APGCGQSEEA
+     LADRRAGVSS L
+//

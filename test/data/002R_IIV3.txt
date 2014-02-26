@@ -1,0 +1,45 @@
+ID   002R_IIV3               Reviewed;         458 AA.
+AC   Q197F8;
+DT   16-JUN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   11-JUL-2006, sequence version 1.
+DT   30-NOV-2010, entry version 13.
+DE   RecName: Full=Uncharacterized protein 002R;
+GN   ORFNames=IIV3-002R;
+OS   Invertebrate iridescent virus 3 (IIV-3) (Mosquito iridescent virus).
+OC   Viruses; dsDNA viruses, no RNA stage; Iridoviridae; Chloriridovirus.
+OX   NCBI_TaxID=345201;
+OH   NCBI_TaxID=7163; Aedes vexans (Inland floodwater mosquito) (Culex vexans).
+OH   NCBI_TaxID=42431; Culex territans.
+OH   NCBI_TaxID=332058; Culiseta annulata.
+OH   NCBI_TaxID=310513; Ochlerotatus sollicitans (eastern saltmarsh mosquito).
+OH   NCBI_TaxID=329105; Ochlerotatus taeniorhynchus (Black salt marsh mosquito) (Aedes taeniorhynchus).
+OH   NCBI_TaxID=7183; Psorophora ferox.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16912294; DOI=10.1128/JVI.00464-06;
+RA   Delhon G., Tulman E.R., Afonso C.L., Lu Z., Becnel J.J., Moser B.A.,
+RA   Kutish G.F., Rock D.L.;
+RT   "Genome of invertebrate iridescent virus type 3 (mosquito iridescent
+RT   virus).";
+RL   J. Virol. 80:8439-8449(2006).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; DQ643392; ABF82032.1; -; Genomic_DNA.
+DR   RefSeq; YP_654574.1; NC_008187.1.
+DR   GeneID; 4156251; -.
+PE   4: Predicted;
+KW   Complete proteome; Virus reference strain.
+FT   CHAIN         1    458       Uncharacterized protein 002R.
+FT                                /FTId=PRO_0000377938.
+SQ   SEQUENCE   458 AA;  53921 MW;  E46E5C85D7ACA139 CRC64;
+     MASNTVSAQG GSNRPVRDFS NIQDVAQFLL FDPIWNEQPG SIVPWKMNRE QALAERYPEL
+     QTSEPSEDYS GPVESLELLP LEIKLDIMQY LSWEQISWCK HPWLWTRWYK DNVVRVSAIT
+     FEDFQREYAF PEKIQEIHFT DTRAEEIKAI LETTPNVTRL VIRRIDDMNY NTHGDLGLDD
+     LEFLTHLMVE DACGFTDFWA PSLTHLTIKN LDMHPRWFGP VMDGIKSMQS TLKYLYIFET
+     YGVNKPFVQW CTDNIETFYC TNSYRYENVP RPIYVWVLFQ EDEWHGYRVE DNKFHRRYMY
+     STILHKRDTD WVENNPLKTP AQVEMYKFLL RISQLNRDGT GYESDSDPEN EHFDDESFSS
+     GEEDSSDEDD PTWAPDSDDS DWETETEEEP SVAARILEKG KLTITNLMKS LGFKPKPKKI
+     QSIDRYFCSL DSNYNSEDED FEYDSDSEDD DSDSEDDC
+//

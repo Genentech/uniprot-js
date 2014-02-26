@@ -1,0 +1,892 @@
+ID   INS_HUMAN               Reviewed;         110 AA.
+AC   P01308; Q5EEX2;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   01-MAY-2013, entry version 180.
+DE   RecName: Full=Insulin;
+DE   Contains:
+DE     RecName: Full=Insulin B chain;
+DE   Contains:
+DE     RecName: Full=Insulin A chain;
+DE   Flags: Precursor;
+GN   Name=INS;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=6243748; DOI=10.1038/284026a0;
+RA   Bell G.I., Pictet R.L., Rutter W.J., Cordell B., Tischer E.,
+RA   Goodman H.M.;
+RT   "Sequence of the human insulin gene.";
+RL   Nature 284:26-32(1980).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=6248962; DOI=10.1126/science.6248962;
+RA   Ullrich A., Dull T.J., Gray A., Brosius J., Sures I.;
+RT   "Genetic variation in the human insulin gene.";
+RL   Science 209:612-615(1980).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=503234; DOI=10.1038/282525a0;
+RA   Bell G.I., Swain W.F., Pictet R.L., Cordell B., Goodman H.M.,
+RA   Rutter W.J.;
+RT   "Nucleotide sequence of a cDNA clone encoding human preproinsulin.";
+RL   Nature 282:525-527(1979).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=6927840; DOI=10.1126/science.6927840;
+RA   Sures I., Goeddel D.V., Gray A., Ullrich A.;
+RT   "Nucleotide sequence of human preproinsulin complementary DNA.";
+RL   Science 208:57-59(1980).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8358440; DOI=10.1038/ng0793-305;
+RA   Lucassen A.M., Julier C., Beressi J.-P., Boitard C., Froguel P.,
+RA   Lathrop M., Bell J.I.;
+RT   "Susceptibility to insulin dependent diabetes mellitus maps to a 4.1
+RT   kb segment of DNA spanning the insulin gene and associated VNTR.";
+RL   Nat. Genet. 4:305-310(1993).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=15070567; DOI=10.1016/S0140-6736(04)15438-X;
+RA   Minn A.H., Kayton M., Lorang D., Hoffmann S.C., Harlan D.M.,
+RA   Libutti S.K., Shalev A.;
+RT   "Insulinomas and expression of an insulin splice variant.";
+RL   Lancet 363:363-367(2004).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=12952878; DOI=10.1101/gr.948003;
+RA   Stead J.D.H., Hurles M.E., Jeffreys A.J.;
+RT   "Global haplotype diversity in the human insulin gene region.";
+RL   Genome Res. 13:2101-2111(2003).
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor
+RT   vector.";
+RL   Submitted (OCT-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [10]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Pancreas;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [11]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-59.
+RC   TISSUE=Blood;
+RA   Fajardy I.I., Weill J.J., Stuckens C.C., Danze P.M.P.;
+RT   "Description of a novel RFLP diallelic polymorphism (-127 BsgI C/G)
+RT   within the 5' region of insulin gene.";
+RL   Submitted (JUL-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [12]
+RP   PROTEIN SEQUENCE OF 25-54 AND 90-110.
+RX   PubMed=14426955; DOI=10.1038/187483a0;
+RA   Nicol D.S.H.W., Smith L.F.;
+RT   "Amino-acid sequence of human insulin.";
+RL   Nature 187:483-485(1960).
+RN   [13]
+RP   PROTEIN SEQUENCE OF 57-87.
+RX   PubMed=5101771;
+RA   Oyer P.E., Cho S., Peterson J.D., Steiner D.F.;
+RT   "Studies on human proinsulin. Isolation and amino acid sequence of the
+RT   human pancreatic C-peptide.";
+RL   J. Biol. Chem. 246:1375-1386(1971).
+RN   [14]
+RP   PROTEIN SEQUENCE OF 57-87.
+RX   PubMed=5560404; DOI=10.1111/j.1432-1033.1971.tb01378.x;
+RA   Ko A., Smyth D.G., Markussen J., Sundby F.;
+RT   "The amino acid sequence of the C-peptide of human proinsulin.";
+RL   Eur. J. Biochem. 20:190-199(1971).
+RN   [15]
+RP   SYNTHESIS.
+RX   PubMed=4443293; DOI=10.1002/hlca.19740570839;
+RA   Sieber P., Kamber B., Hartmann A., Joehl A., Riniker B., Rittel W.;
+RT   "Total synthesis of human insulin under directed formation of the
+RT   disulfide bonds.";
+RL   Helv. Chim. Acta 57:2617-2621(1974).
+RN   [16]
+RP   SYNTHESIS OF 57-87.
+RX   PubMed=4803504;
+RA   Naithani V.K.;
+RT   "Studies on polypeptides, IV. The synthesis of C-peptide of human
+RT   proinsulin.";
+RL   Hoppe-Seyler's Z. Physiol. Chem. 354:659-672(1973).
+RN   [17]
+RP   SYNTHESIS OF 65-69 AND 70-73.
+RX   PubMed=4698555; DOI=10.1002/cber.19731060124;
+RA   Geiger R., Volk A.;
+RT   "Synthesis of peptides with the properties of human proinsulin C
+RT   peptides (hC peptide). 3. Synthesis of the sequences 14-17 and 9-13 of
+RT   human proinsulin C peptides.";
+RL   Chem. Ber. 106:199-205(1973).
+RN   [18]
+RP   SYNTHESIS OF 84-87.
+RX   PubMed=4698553; DOI=10.1002/cber.19731060122;
+RA   Geiger R., Jaeger G., Keonig W., Treuth G.;
+RT   "Synthesis of peptides with the properties of human proinsulin C
+RT   peptides (hC peptide). I. Scheme for the synthesis and preparation of
+RT   the sequence 28-31 of human proinsulin C peptide.";
+RL   Chem. Ber. 106:188-192(1973).
+RN   [19]
+RP   VARIANT LOS ANGELES SER-48.
+RX   PubMed=6312455; DOI=10.1073/pnas.80.20.6366;
+RA   Haneda M., Chan S.J., Kwok S.C.M., Rubenstein A.H., Steiner D.F.;
+RT   "Studies on mutant human insulin genes: identification and sequence
+RT   analysis of a gene encoding [SerB24]insulin.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 80:6366-6370(1983).
+RN   [20]
+RP   VARIANTS LOS ANGELES SER-48 AND CHICAGO LEU-49.
+RX   PubMed=6424111; DOI=10.1073/pnas.80.24.7390;
+RA   Shoelson S., Fickova M., Haneda M., Nahum A., Musso G., Kaiser E.T.,
+RA   Rubenstein A.H., Tager H.;
+RT   "Identification of a mutant human insulin predicted to contain a
+RT   serine-for-phenylalanine substitution.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 80:7390-7394(1983).
+RN   [21]
+RP   VARIANT FHPRI ASP-34.
+RX   PubMed=3470784; DOI=10.1073/pnas.84.8.2194;
+RA   Chan S.J., Seino S., Gruppuso P.A., Schwartz R., Steiner D.F.;
+RT   "A mutation in the B chain coding region is associated with impaired
+RT   proinsulin conversion in a family with hyperproinsulinemia.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 84:2194-2197(1987).
+RN   [22]
+RP   VARIANT WAKAYAMA LEU-92.
+RX   PubMed=3537011; DOI=10.1172/JCI112760;
+RA   Sakura H., Iwamoto Y., Sakamoto Y., Kuzuya T., Hirata H.;
+RT   "Structurally abnormal insulin in a diabetic patient. Characterization
+RT   of the mutant insulin A3 (Val-->Leu) isolated from the pancreas.";
+RL   J. Clin. Invest. 78:1666-1672(1986).
+RN   [23]
+RP   VARIANT FHPRI HIS-89.
+RX   PubMed=2196279;
+RA   Barbetti F., Raben N., Kadowaki T., Cama A., Accili D., Gabbay K.H.,
+RA   Merenich J.A., Taylor S.I., Roth J.;
+RT   "Two unrelated patients with familial hyperproinsulinemia due to a
+RT   mutation substituting histidine for arginine at position 65 in the
+RT   proinsulin molecule: identification of the mutation by direct
+RT   sequencing of genomic deoxyribonucleic acid amplified by polymerase
+RT   chain reaction.";
+RL   J. Clin. Endocrinol. Metab. 71:164-169(1990).
+RN   [24]
+RP   VARIANT FHPRI HIS-89.
+RX   PubMed=4019786; DOI=10.1172/JCI111973;
+RA   Shibasaki Y., Kawakami T., Kanazawa Y., Akanuma Y., Takaku F.;
+RT   "Posttranslational cleavage of proinsulin is blocked by a point
+RT   mutation in familial hyperproinsulinemia.";
+RL   J. Clin. Invest. 76:378-380(1985).
+RN   [25]
+RP   VARIANT FHPRI LEU-89.
+RX   PubMed=1601997; DOI=10.1172/JCI115795;
+RA   Yano H., Kitano N., Morimoto M., Polonsky K.S., Imura H., Seino Y.;
+RT   "A novel point mutation in the human insulin gene giving rise to
+RT   hyperproinsulinemia (proinsulin Kyoto).";
+RL   J. Clin. Invest. 89:1902-1907(1992).
+RN   [26]
+RP   STRUCTURE BY NMR.
+RX   PubMed=2271664; DOI=10.1021/bi00498a018;
+RA   Hua Q.-X., Weiss M.A.;
+RT   "Toward the solution structure of human insulin: sequential 2D 1H NMR
+RT   assignment of a des-pentapeptide analogue and comparison with crystal
+RT   structure.";
+RL   Biochemistry 29:10545-10555(1990).
+RN   [27]
+RP   STRUCTURE BY NMR.
+RX   PubMed=2036420; DOI=10.1021/bi00236a025;
+RA   Hua Q.-X., Weiss M.A.;
+RT   "Comparative 2D NMR studies of human insulin and des-pentapeptide
+RT   insulin: sequential resonance assignment and implications for protein
+RT   dynamics and receptor recognition.";
+RL   Biochemistry 30:5505-5515(1991).
+RN   [28]
+RP   STRUCTURE BY NMR.
+RX   PubMed=1646635; DOI=10.1016/0167-4838(91)90098-K;
+RA   Hua Q.-X., Weiss M.A.;
+RT   "Two-dimensional NMR studies of Des-(B26-B30)-insulin: sequence-
+RT   specific resonance assignments and effects of solvent composition.";
+RL   Biochim. Biophys. Acta 1078:101-110(1991).
+RN   [29]
+RP   STRUCTURE BY NMR.
+RX   PubMed=1433291; DOI=10.1016/0022-2836(92)90527-Q;
+RA   Joergensen A.M.M., Kristensen S.M., Led J.J., Balschmidt P.;
+RT   "Three-dimensional solution structure of an insulin dimer. A study of
+RT   the B9(Asp) mutant of human insulin using nuclear magnetic resonance,
+RT   distance geometry and restrained molecular dynamics.";
+RL   J. Mol. Biol. 227:1146-1163(1992).
+RN   [30]
+RP   STRUCTURE BY NMR OF VARIANT LOS-ANGELES SER-48.
+RX   PubMed=8421693; DOI=10.1073/pnas.90.2.582;
+RA   Hua Q.-X., Shoelson S.E., Inouye K., Weiss M.A.;
+RT   "Paradoxical structure and function in a mutant human insulin
+RT   associated with diabetes mellitus.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 90:582-586(1993).
+RN   [31]
+RP   STRUCTURE BY NMR.
+RX   PubMed=9235985; DOI=10.1021/bi9631069;
+RA   Chang X., Joergensen A.M., Bardrum P., Led J.J.;
+RT   "Solution structures of the R6 human insulin hexamer.";
+RL   Biochemistry 36:9409-9422(1997).
+RN   [32]
+RP   VARIANTS PNDM ASP-24; ARG-32; SER-32; GLY-43; VAL-47; CYS-48; CYS-89;
+RP   CYS-90; TYR-96 AND CYS-108.
+RX   PubMed=17855560; DOI=10.1073/pnas.0707291104;
+RA   Stoy J., Edghill E.L., Flanagan S.E., Ye H., Paz V.P., Pluzhnikov A.,
+RA   Below J.E., Hayes M.G., Cox N.J., Lipkind G.M., Lipton R.B.,
+RA   Greeley S.A., Patch A.M., Ellard S., Steiner D.F., Hattersley A.T.,
+RA   Philipson L.H., Bell G.I.;
+RT   "Insulin gene mutations as a cause of permanent neonatal diabetes.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:15040-15044(2007).
+RN   [33]
+RP   VARIANTS PNDM ASP-24; ASP-29; ARG-32; SER-32; PRO-35; GLY-43; VAL-47;
+RP   CYS-48; ARG-84; CYS-89; CYS-90; SER-96; TYR-96; CYS-101; CYS-103 AND
+RP   CYS-108, VARIANT MODY10 CYS-6, AND VARIANT MET-68.
+RX   PubMed=18162506; DOI=10.2337/db07-1405;
+RA   Edghill E.L., Flanagan S.E., Patch A.M., Boustred C., Parrish A.,
+RA   Shields B., Shepherd M.H., Hussain K., Kapoor R.R., Malecki M.,
+RA   MacDonald M.J., Stoy J., Steiner D.F., Philipson L.H., Bell G.I.,
+RA   Hattersley A.T., Ellard S.;
+RT   "Insulin mutation screening in 1,044 patients with diabetes: mutations
+RT   in the INS gene are a common cause of neonatal diabetes but a rare
+RT   cause of diabetes diagnosed in childhood or adulthood.";
+RL   Diabetes 57:1034-1042(2008).
+RN   [34]
+RP   VARIANT MODY10 GLN-46, AND VARIANT IDDM2 CYS-55.
+RX   PubMed=18192540; DOI=10.2337/db07-1467;
+RA   Molven A., Ringdal M., Nordbo A.M., Raeder H., Stoy J., Lipkind G.M.,
+RA   Steiner D.F., Philipson L.H., Bergmann I., Aarskog D., Undlien D.E.,
+RA   Joner G., Sovik O., Bell G.I., Njolstad P.R.;
+RT   "Mutations in the insulin gene can cause MODY and autoantibody-
+RT   negative type 1 diabetes.";
+RL   Diabetes 57:1131-1135(2008).
+RN   [35]
+RP   VARIANTS MODY10 HIS-6 AND GLN-46.
+RX   PubMed=20226046; DOI=10.1186/1471-2350-11-42;
+RA   Boesgaard T.W., Pruhova S., Andersson E.A., Cinek O., Obermannova B.,
+RA   Lauenborg J., Damm P., Bergholdt R., Pociot F., Pisinger C.,
+RA   Barbetti F., Lebl J., Pedersen O., Hansen T.;
+RT   "Further evidence that mutations in INS can be a rare cause of
+RT   Maturity-Onset Diabetes of the Young (MODY).";
+RL   BMC Med. Genet. 11:42-42(2010).
+CC   -!- FUNCTION: Insulin decreases blood glucose concentration. It
+CC       increases cell permeability to monosaccharides, amino acids and
+CC       fatty acids. It accelerates glycolysis, the pentose phosphate
+CC       cycle, and glycogen synthesis in liver.
+CC   -!- SUBUNIT: Heterodimer of a B chain and an A chain linked by two
+CC       disulfide bonds.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- DISEASE: Hyperproinsulinemia, familial (FHPRI) [MIM:176730]: An
+CC       autosomal dominant condition characterized by elevated levels of
+CC       serum proinsulin-like material. Note=The disease is caused by
+CC       mutations affecting the gene represented in this entry.
+CC   -!- DISEASE: Diabetes mellitus, insulin-dependent, 2 (IDDM2)
+CC       [MIM:125852]: A multifactorial disorder of glucose homeostasis
+CC       that is characterized by susceptibility to ketoacidosis in the
+CC       absence of insulin therapy. Clinical fetaures are polydipsia,
+CC       polyphagia and polyuria which result from hyperglycemia-induced
+CC       osmotic diuresis and secondary thirst. These derangements result
+CC       in long-term complications that affect the eyes, kidneys, nerves,
+CC       and blood vessels. Note=The disease is caused by mutations
+CC       affecting the gene represented in this entry.
+CC   -!- DISEASE: Diabetes mellitus, permanent neonatal (PNDM)
+CC       [MIM:606176]: A rare form of diabetes distinct from childhood-
+CC       onset autoimmune diabetes mellitus type 1. It is characterized by
+CC       insulin-requiring hyperglycemia that is diagnosed within the first
+CC       months of life. Permanent neonatal diabetes requires lifelong
+CC       therapy. Note=The disease is caused by mutations affecting the
+CC       gene represented in this entry.
+CC   -!- DISEASE: Maturity-onset diabetes of the young 10 (MODY10)
+CC       [MIM:613370]: A form of diabetes that is characterized by an
+CC       autosomal dominant mode of inheritance, onset in childhood or
+CC       early adulthood (usually before 25 years of age), a primary defect
+CC       in insulin secretion and frequent insulin-independence at the
+CC       beginning of the disease. Note=The disease is caused by mutations
+CC       affecting the gene represented in this entry.
+CC   -!- PHARMACEUTICAL: Available under the names Humulin or Humalog (Eli
+CC       Lilly) and Novolin (Novo Nordisk). Used in the treatment of
+CC       diabetes. Humalog is an insulin analog with 52-Lys-Pro-53 instead
+CC       of 52-Pro-Lys-53.
+CC   -!- SIMILARITY: Belongs to the insulin family.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA59179.1; Type=Erroneous gene model prediction;
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/INS";
+CC   -!- WEB RESOURCE: Name=Insulin at Eli Lilly; Note=Clinical information
+CC       on Eli Lilly insulin products;
+CC       URL="http://www.lillyDiabetes.com/Products/PatientInfo.cfm";
+CC   -!- WEB RESOURCE: Name=Protein Spotlight; Note=Protein of the 20th
+CC       century - Issue 9 of April 2001;
+CC       URL="http://web.expasy.org/spotlight/back_issues/sptlt009.shtml";
+CC   -!- WEB RESOURCE: Name=Wikipedia; Note=Insulin entry;
+CC       URL="http://en.wikipedia.org/wiki/Insulin";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; V00565; CAA23828.1; -; Genomic_DNA.
+DR   EMBL; M10039; AAA59173.1; -; Genomic_DNA.
+DR   EMBL; J00265; AAA59172.1; -; Genomic_DNA.
+DR   EMBL; X70508; CAA49913.1; -; mRNA.
+DR   EMBL; L15440; AAA59179.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AY899304; AAW83741.1; -; mRNA.
+DR   EMBL; AY138590; AAN39451.1; -; Genomic_DNA.
+DR   EMBL; BT006808; AAP35454.1; -; mRNA.
+DR   EMBL; CH471158; EAX02488.1; -; Genomic_DNA.
+DR   EMBL; BC005255; AAH05255.1; -; mRNA.
+DR   EMBL; AJ009655; CAA08766.1; -; Genomic_DNA.
+DR   IPI; IPI00001508; -.
+DR   PIR; A93222; IPHU.
+DR   RefSeq; NP_000198.1; NM_000207.2.
+DR   RefSeq; NP_001172026.1; NM_001185097.1.
+DR   RefSeq; NP_001172027.1; NM_001185098.1.
+DR   UniGene; Hs.272259; -.
+DR   PDB; 1A7F; NMR; -; A=90-110, B=25-53.
+DR   PDB; 1AI0; NMR; -; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 1AIY; NMR; -; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 1B9E; X-ray; 2.50 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1BEN; X-ray; 1.40 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1EFE; NMR; -; A=25-110.
+DR   PDB; 1EV3; X-ray; 1.78 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1EV6; X-ray; 1.90 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 1EVR; X-ray; 1.90 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 1FU2; X-ray; 3.24 A; A/C/E/G=90-110, B/D/F/H=25-54.
+DR   PDB; 1FUB; X-ray; 3.09 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1G7A; X-ray; 1.20 A; A/C/E/G=90-110, B/D/F/H=25-54.
+DR   PDB; 1G7B; X-ray; 1.30 A; A/C/E/G=90-110, B/D/F/H=25-54.
+DR   PDB; 1GUJ; X-ray; 1.62 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1HIQ; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1HIS; NMR; -; A=90-110, B=25-49.
+DR   PDB; 1HIT; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1HLS; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1HTV; X-ray; 1.90 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-51.
+DR   PDB; 1HUI; NMR; -; A=90-110, B=26-53.
+DR   PDB; 1IOG; NMR; -; A=90-110, B=26-53.
+DR   PDB; 1IOH; NMR; -; A=90-110, B=26-53.
+DR   PDB; 1J73; X-ray; 2.00 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1JCA; X-ray; 2.50 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1JCO; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1K3M; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1KMF; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1LKQ; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1LPH; X-ray; 2.30 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1MHI; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1MHJ; NMR; -; A=90-110, B=25-48.
+DR   PDB; 1MSO; X-ray; 1.00 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1OS3; X-ray; 1.95 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1OS4; X-ray; 2.25 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 1Q4V; X-ray; 2.00 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1QIY; X-ray; 2.30 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 1QIZ; X-ray; 2.00 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 1QJ0; X-ray; 2.40 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1RWE; X-ray; 1.80 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1SF1; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1SJT; NMR; -; A=90-110, B=25-53.
+DR   PDB; 1SJU; NMR; -; A=25-53, A=90-110.
+DR   PDB; 1T0C; NMR; -; A=57-87.
+DR   PDB; 1T1K; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1T1P; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1T1Q; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1TRZ; X-ray; 1.60 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1TYL; X-ray; 1.90 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1TYM; X-ray; 1.90 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1UZ9; X-ray; 1.60 A; A=90-110, B=25-53.
+DR   PDB; 1VKT; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1W8P; X-ray; 2.08 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 1XDA; X-ray; 1.80 A; A/C/E/G=90-110, B/D/F/H=25-53.
+DR   PDB; 1XGL; NMR; -; A=90-110, B=25-54.
+DR   PDB; 1XW7; X-ray; 2.30 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1ZEG; X-ray; 1.60 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1ZEH; X-ray; 1.50 A; A/C=90-110, B/D=25-54.
+DR   PDB; 1ZNJ; X-ray; 2.00 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 2AIY; NMR; -; B/D/F/H/J/L=25-54.
+DR   PDB; 2C8Q; X-ray; 1.95 A; A=90-110, B=25-53.
+DR   PDB; 2C8R; X-ray; 1.50 A; A=90-110, B=25-53.
+DR   PDB; 2CEU; X-ray; 1.80 A; A/C=90-110, B/D=25-49.
+DR   PDB; 2G54; X-ray; 2.25 A; C/D=25-54.
+DR   PDB; 2G56; X-ray; 2.20 A; C/D=25-54.
+DR   PDB; 2H67; NMR; -; A=90-110, B=25-54.
+DR   PDB; 2HH4; NMR; -; A=90-110.
+DR   PDB; 2HHO; NMR; -; A=90-110, B=25-54.
+DR   PDB; 2HIU; NMR; -; A=90-110, B=25-54.
+DR   PDB; 2JMN; NMR; -; A=90-110, B=25-54.
+DR   PDB; 2JUM; NMR; -; A=90-110, B=25-51.
+DR   PDB; 2JUU; NMR; -; A=90-110, B=25-51.
+DR   PDB; 2JUV; NMR; -; A=90-110, B=25-51.
+DR   PDB; 2JV1; NMR; -; A=90-110, B=25-54.
+DR   PDB; 2JZQ; NMR; -; A=25-54, A=90-110.
+DR   PDB; 2K91; NMR; -; A=90-110, B=25-51.
+DR   PDB; 2K9R; NMR; -; A=90-110, B=25-51.
+DR   PDB; 2KJJ; NMR; -; A=90-110, B=25-51.
+DR   PDB; 2KJU; NMR; -; A=90-110, B=25-51.
+DR   PDB; 2KQP; NMR; -; A=25-110.
+DR   PDB; 2KQQ; NMR; -; A=90-110, B=25-51.
+DR   PDB; 2KXK; NMR; -; A=90-110, B=25-54.
+DR   PDB; 2L1Y; NMR; -; A=90-110, B=25-51.
+DR   PDB; 2L1Z; NMR; -; A=93-110, B=25-51.
+DR   PDB; 2LGB; NMR; -; A=90-110, B=25-55.
+DR   PDB; 2M1D; NMR; -; A=90-110, B=25-51.
+DR   PDB; 2M1E; NMR; -; A=90-110, B=25-51.
+DR   PDB; 2M2M; NMR; -; A=90-110, B=25-54.
+DR   PDB; 2M2N; NMR; -; A=90-110, B=25-54.
+DR   PDB; 2M2O; NMR; -; A=90-110, B=25-54.
+DR   PDB; 2M2P; NMR; -; A=90-110, B=25-54.
+DR   PDB; 2OLY; X-ray; 1.70 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 2OLZ; X-ray; 1.70 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 2OM0; X-ray; 2.05 A; 1/3/A/C/E/G/I/K/Q/S/U/X/a/c/e/g/i/k=90-110, 2/4/B/D/F/H/J/L/R/T/V/Y/b/d/f/h/j/l=25-54.
+DR   PDB; 2OM1; X-ray; 1.97 A; 1/3/A/C/E/G/I/K/Q/S/U/X/a/c/e/g/i/k=90-110, 2/4/B/D/F/H/J/L/R/T/V/Y/b/d/f/h/j/l=25-54.
+DR   PDB; 2OMG; X-ray; 1.52 A; A/C/E=90-110, B/D/F=25-54.
+DR   PDB; 2OMH; X-ray; 1.36 A; A/C/E=90-110, B/D/F=25-54.
+DR   PDB; 2OMI; X-ray; 2.24 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 2QIU; X-ray; 2.00 A; A/C=89-110, B/D=25-54.
+DR   PDB; 2R34; X-ray; 2.25 A; A/C=89-110, B/D=25-54.
+DR   PDB; 2R35; X-ray; 2.08 A; A/C=89-110, B/D=25-54.
+DR   PDB; 2R36; X-ray; 2.00 A; A/C=89-110, B/D=25-54.
+DR   PDB; 2RN5; NMR; -; A=90-110, B=25-56.
+DR   PDB; 2VJZ; X-ray; 1.80 A; A/C=90-110, B/D=25-54.
+DR   PDB; 2VK0; X-ray; 2.20 A; A/C=90-110, B/D=25-54.
+DR   PDB; 2W44; X-ray; 2.00 A; A/C/E=94-110, B/D/F=25-53.
+DR   PDB; 2WBY; X-ray; 2.60 A; C/E=90-109, D/F=25-43.
+DR   PDB; 2WC0; X-ray; 2.80 A; C/E=90-110, D/F=25-54.
+DR   PDB; 2WRU; X-ray; 1.57 A; A=90-110, B=25-49.
+DR   PDB; 2WRV; X-ray; 2.15 A; A=90-110, B=25-49.
+DR   PDB; 2WRW; X-ray; 2.41 A; A=90-110, B=25-49.
+DR   PDB; 2WRX; X-ray; 1.50 A; A/C=90-110, B/D=25-54.
+DR   PDB; 2WS0; X-ray; 2.10 A; A=90-110, B=25-54.
+DR   PDB; 2WS1; X-ray; 1.60 A; A=90-110, B=25-54.
+DR   PDB; 2WS4; X-ray; 1.90 A; A=90-110, B=25-49.
+DR   PDB; 2WS6; X-ray; 1.50 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 2WS7; X-ray; 2.59 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-49.
+DR   PDB; 3AIY; NMR; -; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 3BRR; X-ray; 1.70 A; A/C=90-110, B/D=25-53.
+DR   PDB; 3BXQ; X-ray; 1.30 A; A/C=90-110, B/D=25-54.
+DR   PDB; 3E7Y; X-ray; 1.60 A; A/C=90-110, B/D=25-53.
+DR   PDB; 3E7Z; X-ray; 1.70 A; A/C=90-110, B/D=25-53.
+DR   PDB; 3EXX; X-ray; 1.35 A; A/C=90-110, B/D=25-54.
+DR   PDB; 3FQ9; X-ray; 1.35 A; A/C=91-110, B/D=25-54.
+DR   PDB; 3HYD; X-ray; 1.00 A; A=35-41.
+DR   PDB; 3I3Z; X-ray; 1.60 A; A=90-110, B=25-53.
+DR   PDB; 3I40; X-ray; 1.85 A; A=90-110, B=25-53.
+DR   PDB; 3ILG; X-ray; 1.90 A; A/C=90-110, B/D=25-54.
+DR   PDB; 3INC; X-ray; 1.85 A; A/C=90-110, B/D=25-54.
+DR   PDB; 3IR0; X-ray; 2.20 A; A/C/E/G/I/K/M/O/R/T/V/X=90-110, B/D/F/H/J/L/N/P/S/U/W/Y=25-54.
+DR   PDB; 3JSD; X-ray; 2.50 A; A/C=90-110, B/D=25-54.
+DR   PDB; 3KQ6; X-ray; 1.90 A; A/C=90-110, B/D=25-54.
+DR   PDB; 3P2X; X-ray; 2.00 A; A/C=90-110, B/D=25-54.
+DR   PDB; 3P33; X-ray; 2.30 A; A/C/E/G=90-110, B/D/F/H=25-54.
+DR   PDB; 3Q6E; X-ray; 2.05 A; A/C=90-110, B/D=25-54.
+DR   PDB; 3ROV; X-ray; 2.30 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-51.
+DR   PDB; 3TT8; X-ray; 1.12 A; A/C=90-110, B/D=25-54.
+DR   PDB; 3U4N; X-ray; 1.98 A; A=90-110, B=25-53.
+DR   PDB; 3UTQ; X-ray; 1.67 A; C=15-24.
+DR   PDB; 3UTS; X-ray; 2.71 A; C/H=15-24.
+DR   PDB; 3UTT; X-ray; 2.60 A; C/H=15-24.
+DR   PDB; 3V19; X-ray; 2.00 A; A/C=93-110, B/D=25-54.
+DR   PDB; 3V1G; X-ray; 2.20 A; A/C=90-110, B/D=25-54.
+DR   PDB; 3W11; X-ray; 3.90 A; A=90-110, B=25-54.
+DR   PDB; 3W12; X-ray; 4.30 A; A=90-110, B=25-49.
+DR   PDB; 3W13; X-ray; 4.30 A; A=90-110, B=25-49.
+DR   PDB; 3ZI3; X-ray; 1.70 A; A=90-110, B=25-54.
+DR   PDB; 3ZQR; X-ray; 1.90 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 3ZS2; X-ray; 1.97 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-48.
+DR   PDB; 3ZU1; X-ray; 1.60 A; A/C=90-110, B/D=25-54.
+DR   PDB; 4AIY; NMR; -; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDB; 4AJX; X-ray; 1.20 A; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-53.
+DR   PDB; 4AJZ; X-ray; 1.80 A; A/C=90-110, B/D=25-53.
+DR   PDB; 4AK0; X-ray; 2.28 A; A=90-110, B=25-53.
+DR   PDB; 4AKJ; X-ray; 2.01 A; A/C=90-110, B/D=25-53.
+DR   PDB; 4EFX; X-ray; 1.98 A; A/C=90-110, B/D=25-52.
+DR   PDB; 4FKA; X-ray; 1.08 A; A/C=90-110, B/D=25-54.
+DR   PDB; 4IUZ; X-ray; 1.60 A; A=90-110, B=25-51.
+DR   PDB; 5AIY; NMR; -; A/C/E/G/I/K=90-110, B/D/F/H/J/L=25-54.
+DR   PDBsum; 1A7F; -.
+DR   PDBsum; 1AI0; -.
+DR   PDBsum; 1AIY; -.
+DR   PDBsum; 1B9E; -.
+DR   PDBsum; 1BEN; -.
+DR   PDBsum; 1EFE; -.
+DR   PDBsum; 1EV3; -.
+DR   PDBsum; 1EV6; -.
+DR   PDBsum; 1EVR; -.
+DR   PDBsum; 1FU2; -.
+DR   PDBsum; 1FUB; -.
+DR   PDBsum; 1G7A; -.
+DR   PDBsum; 1G7B; -.
+DR   PDBsum; 1GUJ; -.
+DR   PDBsum; 1HIQ; -.
+DR   PDBsum; 1HIS; -.
+DR   PDBsum; 1HIT; -.
+DR   PDBsum; 1HLS; -.
+DR   PDBsum; 1HTV; -.
+DR   PDBsum; 1HUI; -.
+DR   PDBsum; 1IOG; -.
+DR   PDBsum; 1IOH; -.
+DR   PDBsum; 1J73; -.
+DR   PDBsum; 1JCA; -.
+DR   PDBsum; 1JCO; -.
+DR   PDBsum; 1K3M; -.
+DR   PDBsum; 1KMF; -.
+DR   PDBsum; 1LKQ; -.
+DR   PDBsum; 1LPH; -.
+DR   PDBsum; 1MHI; -.
+DR   PDBsum; 1MHJ; -.
+DR   PDBsum; 1MSO; -.
+DR   PDBsum; 1OS3; -.
+DR   PDBsum; 1OS4; -.
+DR   PDBsum; 1Q4V; -.
+DR   PDBsum; 1QIY; -.
+DR   PDBsum; 1QIZ; -.
+DR   PDBsum; 1QJ0; -.
+DR   PDBsum; 1RWE; -.
+DR   PDBsum; 1SF1; -.
+DR   PDBsum; 1SJT; -.
+DR   PDBsum; 1SJU; -.
+DR   PDBsum; 1T0C; -.
+DR   PDBsum; 1T1K; -.
+DR   PDBsum; 1T1P; -.
+DR   PDBsum; 1T1Q; -.
+DR   PDBsum; 1TRZ; -.
+DR   PDBsum; 1TYL; -.
+DR   PDBsum; 1TYM; -.
+DR   PDBsum; 1UZ9; -.
+DR   PDBsum; 1VKT; -.
+DR   PDBsum; 1W8P; -.
+DR   PDBsum; 1XDA; -.
+DR   PDBsum; 1XGL; -.
+DR   PDBsum; 1XW7; -.
+DR   PDBsum; 1ZEG; -.
+DR   PDBsum; 1ZEH; -.
+DR   PDBsum; 1ZNJ; -.
+DR   PDBsum; 2AIY; -.
+DR   PDBsum; 2C8Q; -.
+DR   PDBsum; 2C8R; -.
+DR   PDBsum; 2CEU; -.
+DR   PDBsum; 2G54; -.
+DR   PDBsum; 2G56; -.
+DR   PDBsum; 2H67; -.
+DR   PDBsum; 2HH4; -.
+DR   PDBsum; 2HHO; -.
+DR   PDBsum; 2HIU; -.
+DR   PDBsum; 2JMN; -.
+DR   PDBsum; 2JUM; -.
+DR   PDBsum; 2JUU; -.
+DR   PDBsum; 2JUV; -.
+DR   PDBsum; 2JV1; -.
+DR   PDBsum; 2JZQ; -.
+DR   PDBsum; 2K91; -.
+DR   PDBsum; 2K9R; -.
+DR   PDBsum; 2KJJ; -.
+DR   PDBsum; 2KJU; -.
+DR   PDBsum; 2KQP; -.
+DR   PDBsum; 2KQQ; -.
+DR   PDBsum; 2KXK; -.
+DR   PDBsum; 2L1Y; -.
+DR   PDBsum; 2L1Z; -.
+DR   PDBsum; 2LGB; -.
+DR   PDBsum; 2M1D; -.
+DR   PDBsum; 2M1E; -.
+DR   PDBsum; 2M2M; -.
+DR   PDBsum; 2M2N; -.
+DR   PDBsum; 2M2O; -.
+DR   PDBsum; 2M2P; -.
+DR   PDBsum; 2OLY; -.
+DR   PDBsum; 2OLZ; -.
+DR   PDBsum; 2OM0; -.
+DR   PDBsum; 2OM1; -.
+DR   PDBsum; 2OMG; -.
+DR   PDBsum; 2OMH; -.
+DR   PDBsum; 2OMI; -.
+DR   PDBsum; 2QIU; -.
+DR   PDBsum; 2R34; -.
+DR   PDBsum; 2R35; -.
+DR   PDBsum; 2R36; -.
+DR   PDBsum; 2RN5; -.
+DR   PDBsum; 2VJZ; -.
+DR   PDBsum; 2VK0; -.
+DR   PDBsum; 2W44; -.
+DR   PDBsum; 2WBY; -.
+DR   PDBsum; 2WC0; -.
+DR   PDBsum; 2WRU; -.
+DR   PDBsum; 2WRV; -.
+DR   PDBsum; 2WRW; -.
+DR   PDBsum; 2WRX; -.
+DR   PDBsum; 2WS0; -.
+DR   PDBsum; 2WS1; -.
+DR   PDBsum; 2WS4; -.
+DR   PDBsum; 2WS6; -.
+DR   PDBsum; 2WS7; -.
+DR   PDBsum; 3AIY; -.
+DR   PDBsum; 3BRR; -.
+DR   PDBsum; 3BXQ; -.
+DR   PDBsum; 3E7Y; -.
+DR   PDBsum; 3E7Z; -.
+DR   PDBsum; 3EXX; -.
+DR   PDBsum; 3FQ9; -.
+DR   PDBsum; 3HYD; -.
+DR   PDBsum; 3I3Z; -.
+DR   PDBsum; 3I40; -.
+DR   PDBsum; 3ILG; -.
+DR   PDBsum; 3INC; -.
+DR   PDBsum; 3IR0; -.
+DR   PDBsum; 3JSD; -.
+DR   PDBsum; 3KQ6; -.
+DR   PDBsum; 3P2X; -.
+DR   PDBsum; 3P33; -.
+DR   PDBsum; 3Q6E; -.
+DR   PDBsum; 3ROV; -.
+DR   PDBsum; 3TT8; -.
+DR   PDBsum; 3U4N; -.
+DR   PDBsum; 3UTQ; -.
+DR   PDBsum; 3UTS; -.
+DR   PDBsum; 3UTT; -.
+DR   PDBsum; 3V19; -.
+DR   PDBsum; 3V1G; -.
+DR   PDBsum; 3W11; -.
+DR   PDBsum; 3W12; -.
+DR   PDBsum; 3W13; -.
+DR   PDBsum; 3ZI3; -.
+DR   PDBsum; 3ZQR; -.
+DR   PDBsum; 3ZS2; -.
+DR   PDBsum; 3ZU1; -.
+DR   PDBsum; 4AIY; -.
+DR   PDBsum; 4AJX; -.
+DR   PDBsum; 4AJZ; -.
+DR   PDBsum; 4AK0; -.
+DR   PDBsum; 4AKJ; -.
+DR   PDBsum; 4EFX; -.
+DR   PDBsum; 4FKA; -.
+DR   PDBsum; 4IUZ; -.
+DR   PDBsum; 5AIY; -.
+DR   ProteinModelPortal; P01308; -.
+DR   DIP; DIP-6024N; -.
+DR   MINT; MINT-106847; -.
+DR   STRING; 9606.ENSP00000348986; -.
+DR   Allergome; 2121; Hom s Insulin.
+DR   PhosphoSite; P01308; -.
+DR   DMDM; 124617; -.
+DR   PaxDb; P01308; -.
+DR   PeptideAtlas; P01308; -.
+DR   PRIDE; P01308; -.
+DR   DNASU; 3630; -.
+DR   Ensembl; ENST00000250971; ENSP00000250971; ENSG00000254647.
+DR   Ensembl; ENST00000381330; ENSP00000370731; ENSG00000254647.
+DR   Ensembl; ENST00000397262; ENSP00000380432; ENSG00000254647.
+DR   GeneID; 3630; -.
+DR   KEGG; hsa:3630; -.
+DR   UCSC; uc001lvn.2; human.
+DR   CTD; 3630; -.
+DR   GeneCards; GC11M002181; -.
+DR   HGNC; HGNC:6081; INS.
+DR   HPA; CAB000048; -.
+DR   HPA; CAB012098; -.
+DR   HPA; CAB053843; -.
+DR   HPA; HPA004932; -.
+DR   MIM; 125852; phenotype.
+DR   MIM; 176730; gene+phenotype.
+DR   MIM; 606176; phenotype.
+DR   MIM; 613370; phenotype.
+DR   neXtProt; NX_P01308; -.
+DR   Orphanet; 552; MODY syndrome.
+DR   Orphanet; 99885; Permanent neonatal diabetes mellitus.
+DR   PharmGKB; PA201; -.
+DR   eggNOG; NOG45999; -.
+DR   HOGENOM; HOG000261669; -.
+DR   HOVERGEN; HBG006137; -.
+DR   KO; K04526; -.
+DR   OMA; VEQCCHN; -.
+DR   PhylomeDB; P01308; -.
+DR   BioCyc; MetaCyc:MONOMER-16190; -.
+DR   Pathway_Interaction_DB; arf6_traffickingpathway; Arf6 trafficking events.
+DR   Pathway_Interaction_DB; hnf3apathway; FOXA1 transcription factor network.
+DR   Pathway_Interaction_DB; hnf3bpathway; FOXA2 and FOXA3 transcription factor networks.
+DR   Pathway_Interaction_DB; insulin_pathway; Insulin Pathway.
+DR   Pathway_Interaction_DB; insulin_glucose_pathway; Insulin-mediated glucose transport.
+DR   Pathway_Interaction_DB; mtor_4pathway; mTOR signaling pathway.
+DR   Pathway_Interaction_DB; ptp1bpathway; Signaling events mediated by PTP1B.
+DR   Reactome; REACT_111045; Developmental Biology.
+DR   Reactome; REACT_111102; Signal Transduction.
+DR   Reactome; REACT_111217; Metabolism.
+DR   Reactome; REACT_116125; Disease.
+DR   ChEMBL; CHEMBL5881; -.
+DR   EvolutionaryTrace; P01308; -.
+DR   GenomeRNAi; 3630; -.
+DR   NextBio; 14203; -.
+DR   PMAP-CutDB; P01308; -.
+DR   ArrayExpress; P01308; -.
+DR   Bgee; P01308; -.
+DR   Genevestigator; P01308; -.
+DR   GermOnline; ENSG00000129965; Homo sapiens.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; TAS:Reactome.
+DR   GO; GO:0031904; C:endosome lumen; TAS:Reactome.
+DR   GO; GO:0005615; C:extracellular space; IDA:BHF-UCL.
+DR   GO; GO:0005796; C:Golgi lumen; TAS:Reactome.
+DR   GO; GO:0030141; C:secretory granule; TAS:Reactome.
+DR   GO; GO:0005179; F:hormone activity; NAS:UniProtKB.
+DR   GO; GO:0005158; F:insulin receptor binding; IDA:UniProtKB.
+DR   GO; GO:0032148; P:activation of protein kinase B activity; IDA:BHF-UCL.
+DR   GO; GO:0006953; P:acute-phase response; IDA:BHF-UCL.
+DR   GO; GO:0046631; P:alpha-beta T cell activation; IDA:UniProtKB.
+DR   GO; GO:0007267; P:cell-cell signaling; IC:UniProtKB.
+DR   GO; GO:0031018; P:endocrine pancreas development; TAS:Reactome.
+DR   GO; GO:0006112; P:energy reserve metabolic process; TAS:Reactome.
+DR   GO; GO:0055089; P:fatty acid homeostasis; IMP:BHF-UCL.
+DR   GO; GO:0007186; P:G-protein coupled receptor signaling pathway; IDA:BHF-UCL.
+DR   GO; GO:0042593; P:glucose homeostasis; IMP:BHF-UCL.
+DR   GO; GO:0006006; P:glucose metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0015758; P:glucose transport; IDA:UniProtKB.
+DR   GO; GO:0008286; P:insulin receptor signaling pathway; TAS:Reactome.
+DR   GO; GO:0000165; P:MAPK cascade; IDA:BHF-UCL.
+DR   GO; GO:0002674; P:negative regulation of acute inflammatory response; IDA:BHF-UCL.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; NAS:BHF-UCL.
+DR   GO; GO:0045922; P:negative regulation of fatty acid metabolic process; IMP:BHF-UCL.
+DR   GO; GO:2000252; P:negative regulation of feeding behavior; IDA:DFLAT.
+DR   GO; GO:0045721; P:negative regulation of gluconeogenesis; NAS:BHF-UCL.
+DR   GO; GO:0045818; P:negative regulation of glycogen catabolic process; IMP:BHF-UCL.
+DR   GO; GO:0050995; P:negative regulation of lipid catabolic process; NAS:BHF-UCL.
+DR   GO; GO:0033861; P:negative regulation of NAD(P)H oxidase activity; IDA:BHF-UCL.
+DR   GO; GO:0042177; P:negative regulation of protein catabolic process; IDA:UniProtKB.
+DR   GO; GO:0032460; P:negative regulation of protein oligomerization; IDA:UniProtKB.
+DR   GO; GO:0050709; P:negative regulation of protein secretion; IDA:BHF-UCL.
+DR   GO; GO:0045861; P:negative regulation of proteolysis; IMP:BHF-UCL.
+DR   GO; GO:0060266; P:negative regulation of respiratory burst involved in inflammatory response; IDA:BHF-UCL.
+DR   GO; GO:0045908; P:negative regulation of vasodilation; NAS:UniProtKB.
+DR   GO; GO:0090336; P:positive regulation of brown fat cell differentiation; TAS:BHF-UCL.
+DR   GO; GO:0030307; P:positive regulation of cell growth; NAS:BHF-UCL.
+DR   GO; GO:0030335; P:positive regulation of cell migration; ISS:BHF-UCL.
+DR   GO; GO:0008284; P:positive regulation of cell proliferation; IDA:BHF-UCL.
+DR   GO; GO:0050715; P:positive regulation of cytokine secretion; IDA:UniProtKB.
+DR   GO; GO:0045740; P:positive regulation of DNA replication; IDA:BHF-UCL.
+DR   GO; GO:0046326; P:positive regulation of glucose import; IDA:BHF-UCL.
+DR   GO; GO:0045725; P:positive regulation of glycogen biosynthetic process; IDA:BHF-UCL.
+DR   GO; GO:0045821; P:positive regulation of glycolysis; IDA:BHF-UCL.
+DR   GO; GO:0046628; P:positive regulation of insulin receptor signaling pathway; IDA:BHF-UCL.
+DR   GO; GO:0046889; P:positive regulation of lipid biosynthetic process; NAS:BHF-UCL.
+DR   GO; GO:0043410; P:positive regulation of MAPK cascade; IDA:BHF-UCL.
+DR   GO; GO:0045840; P:positive regulation of mitosis; IDA:UniProtKB.
+DR   GO; GO:0051092; P:positive regulation of NF-kappaB transcription factor activity; IDA:BHF-UCL.
+DR   GO; GO:0045429; P:positive regulation of nitric oxide biosynthetic process; NAS:UniProtKB.
+DR   GO; GO:0051000; P:positive regulation of nitric-oxide synthase activity; NAS:UniProtKB.
+DR   GO; GO:0090277; P:positive regulation of peptide hormone secretion; TAS:BHF-UCL.
+DR   GO; GO:0050731; P:positive regulation of peptidyl-tyrosine phosphorylation; IDA:BHF-UCL.
+DR   GO; GO:0014068; P:positive regulation of phosphatidylinositol 3-kinase cascade; IDA:BHF-UCL.
+DR   GO; GO:0031954; P:positive regulation of protein autophosphorylation; ISS:BHF-UCL.
+DR   GO; GO:0051897; P:positive regulation of protein kinase B signaling cascade; IDA:BHF-UCL.
+DR   GO; GO:0060267; P:positive regulation of respiratory burst; IDA:BHF-UCL.
+DR   GO; GO:0045909; P:positive regulation of vasodilation; NAS:UniProtKB.
+DR   GO; GO:0006521; P:regulation of cellular amino acid metabolic process; IMP:BHF-UCL.
+DR   GO; GO:0050796; P:regulation of insulin secretion; TAS:Reactome.
+DR   GO; GO:0022898; P:regulation of transmembrane transporter activity; IDA:BHF-UCL.
+DR   GO; GO:0044281; P:small molecule metabolic process; TAS:Reactome.
+DR   GO; GO:0042060; P:wound healing; IDA:BHF-UCL.
+DR   Gene3D; 1.10.100.10; -; 2.
+DR   InterPro; IPR004825; Insulin.
+DR   InterPro; IPR016179; Insulin-like.
+DR   InterPro; IPR022353; Insulin_CS.
+DR   InterPro; IPR022352; Insulin_family.
+DR   Pfam; PF00049; Insulin; 1.
+DR   PRINTS; PR00277; INSULIN.
+DR   PRINTS; PR00276; INSULINFAMLY.
+DR   SMART; SM00078; IlGF; 1.
+DR   SUPFAM; SSF56994; Insulin-like; 1.
+DR   PROSITE; PS00262; INSULIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism;
+KW   Cleavage on pair of basic residues; Complete proteome;
+KW   Diabetes mellitus; Direct protein sequencing; Disease mutation;
+KW   Disulfide bond; Glucose metabolism; Hormone; Pharmaceutical;
+KW   Polymorphism; Reference proteome; Secreted; Signal.
+FT   SIGNAL        1     24
+FT   PEPTIDE      25     54       Insulin B chain.
+FT                                /FTId=PRO_0000015819.
+FT   PROPEP       57     87       C peptide.
+FT                                /FTId=PRO_0000015820.
+FT   PEPTIDE      90    110       Insulin A chain.
+FT                                /FTId=PRO_0000015821.
+FT   DISULFID     31     96       Interchain (between B and A chains).
+FT   DISULFID     43    109       Interchain (between B and A chains).
+FT   DISULFID     95    100
+FT   VARIANT       6      6       R -> C (in MODY10; dbSNP:rs121908278).
+FT                                /FTId=VAR_063721.
+FT   VARIANT       6      6       R -> H (in MODY10; dbSNP:rs121908259).
+FT                                /FTId=VAR_063722.
+FT   VARIANT      24     24       A -> D (in PNDM; dbSNP:rs80356663).
+FT                                /FTId=VAR_063723.
+FT   VARIANT      29     29       H -> D (in PNDM; dbSNP:rs121908272).
+FT                                /FTId=VAR_063724.
+FT   VARIANT      32     32       G -> R (in PNDM; dbSNP:rs80356664).
+FT                                /FTId=VAR_063725.
+FT   VARIANT      32     32       G -> S (in PNDM; dbSNP:rs80356664).
+FT                                /FTId=VAR_063726.
+FT   VARIANT      34     34       H -> D (in FHPRI; Providence).
+FT                                /FTId=VAR_003971.
+FT   VARIANT      35     35       L -> P (in PNDM; dbSNP:rs121908273).
+FT                                /FTId=VAR_063727.
+FT   VARIANT      43     43       C -> G (in PNDM; dbSNP:rs80356666).
+FT                                /FTId=VAR_063728.
+FT   VARIANT      46     46       R -> Q (in MODY10; dbSNP:rs121908260).
+FT                                /FTId=VAR_063729.
+FT   VARIANT      47     47       G -> V (in PNDM; dbSNP:rs80356667).
+FT                                /FTId=VAR_063730.
+FT   VARIANT      48     48       F -> C (in PNDM; dbSNP:rs80356668).
+FT                                /FTId=VAR_063731.
+FT   VARIANT      48     48       F -> S (associated with diabetes mellitus
+FT                                type-II; Los-Angeles).
+FT                                /FTId=VAR_003972.
+FT   VARIANT      49     49       F -> L (in Chicago).
+FT                                /FTId=VAR_003973.
+FT   VARIANT      55     55       R -> C (in IDDM2; dbSNP:rs121908261).
+FT                                /FTId=VAR_063732.
+FT   VARIANT      68     68       L -> M (in dbSNP:rs121908279).
+FT                                /FTId=VAR_063733.
+FT   VARIANT      84     84       G -> R (in PNDM; uncertain pathological
+FT                                significance; dbSNP:rs121908274).
+FT                                /FTId=VAR_063734.
+FT   VARIANT      89     89       R -> C (in PNDM; dbSNP:rs80356669).
+FT                                /FTId=VAR_063735.
+FT   VARIANT      89     89       R -> H (in FHPRI; impairs
+FT                                posttranslational cleavage;
+FT                                dbSNP:rs28933985).
+FT                                /FTId=VAR_003974.
+FT   VARIANT      89     89       R -> L (in FHPRI; Kyoto).
+FT                                /FTId=VAR_003975.
+FT   VARIANT      90     90       G -> C (in PNDM; dbSNP:rs80356670).
+FT                                /FTId=VAR_063736.
+FT   VARIANT      92     92       V -> L (in Wakayama).
+FT                                /FTId=VAR_003976.
+FT   VARIANT      96     96       C -> S (in PNDM; dbSNP:rs80356671).
+FT                                /FTId=VAR_063737.
+FT   VARIANT      96     96       C -> Y (in PNDM; dbSNP:rs80356671).
+FT                                /FTId=VAR_063738.
+FT   VARIANT     101    101       S -> C (in PNDM; dbSNP:rs121908276).
+FT                                /FTId=VAR_063739.
+FT   VARIANT     103    103       Y -> C (in PNDM; dbSNP:rs121908277).
+FT                                /FTId=VAR_063740.
+FT   VARIANT     108    108       Y -> C (in PNDM; dbSNP:rs80356672).
+FT                                /FTId=VAR_063741.
+FT   STRAND       39     41
+FT   STRAND       46     50
+FT   TURN         59     66
+FT   STRAND       74     76
+FT   HELIX        79     81
+FT   TURN         84     86
+FT   HELIX        91     97
+FT   HELIX       102    108
+SQ   SEQUENCE   110 AA;  11981 MW;  C2C3B23B85E520E5 CRC64;
+     MALWMRLLPL LALLALWGPD PAAAFVNQHL CGSHLVEALY LVCGERGFFY TPKTRREAED
+     LQVGQVELGG GPGAGSLQPL ALEGSLQKRG IVEQCCTSIC SLYQLENYCN
+//
