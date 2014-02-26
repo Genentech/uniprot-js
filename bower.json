@@ -1,0 +1,12 @@
+{
+  "name": "uniprot",
+  "version": "0.0.1",
+  "main": "dist/uniprot.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {}
+}
