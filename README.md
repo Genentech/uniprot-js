@@ -46,6 +46,3 @@ We'll do our best to help you out with any contribution issues you may have.
 
 ## License
 BSD. See [LICENSE.txt] in this directory.
-
-pipo
-pipo
