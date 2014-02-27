@@ -18,11 +18,15 @@ See the [project homepage](http://github.com/genentech/uniprot.js).
 
 Refer to the unit tests to see the library in action.
 
+To build the distribution
+    npm install
+    grunt dist
+
 ## Installation
 
 Using Bower:
 
- <code> bower install uniprot</code>
+    bower install uniprot
 
 Or grab the [source](https://github.com/genentech/uniprot.js/dist/uniprot.js) ([minified](https://github.com/genentech/uniprot.js/dist/uniprot.min.js)).
 
