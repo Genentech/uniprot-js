@@ -4,6 +4,11 @@ module.exports = function(grunt) {
 
         pkg : grunt.file.readJSON('package.json'),
 
+        shell: {
+            bumpVersion: {
+                command: 'npm version patch'
+            }
+        },
         concat : {
             options : {
                 separator : "\n\n"
@@ -56,9 +61,12 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-mocha-test');
 
     grunt.registerTask('test', ['jshint', 'mochaTest']);
-    grunt.registerTask('dist', ['concat', 'jshint', 'uglify']);
+    grunt.registerTask('build', ['concat', 'jshint', 'uglify']);
+    grunt.registerTask('publish', ['shell:bumpVersion', 'build']);
+
 
 };

@@ -1,6 +1,6 @@
 {
   "name": "uniprot",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "main": "dist/uniprot.min.js",
   "description": "Uniprot text file parser",
   "repository": {
@@ -19,6 +19,7 @@
     "grunt": "~0.4.1",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-cli": "~0.1.11",
-    "grunt-mocha-test": "~0.8.1"
+    "grunt-mocha-test": "~0.8.1",
+    "grunt-shell": "^0.6.4"
   }
 }

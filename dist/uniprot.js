@@ -343,13 +343,11 @@
             }
             return ret;
         };
-/*
+
         //node.js compatibility
         if ( typeof exports !== 'undefined') {
-            exports.UniprotReader = UniprotReader;
+            exports.Reader = UniprotReader;
         }
-*/
-
 
         root.Uniprot.Reader = UniprotReader;
     }());

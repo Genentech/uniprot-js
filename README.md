@@ -20,7 +20,7 @@ Refer to the unit tests to see the library in action.
 
 To build the distribution
     npm install
-    grunt dist
+    grunt build
 
 ## Installation
 
