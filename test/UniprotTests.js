@@ -1,9 +1,9 @@
-var Uniprot = require('../src/UniprotReader.js');
+var Uniprot = require('../src/Uniprot.js');
 var assert = require("should");
 var fs = require('fs')
 
 describe('UniprotReader', function() {
-    var reader = new Uniprot.DatReader();
+    var reader = new Uniprot.Reader();
     var check = function(src, fct) {
         var content = "" + fs.readFileSync('test/data/' + src, {
             encodind : 'utf-8'
