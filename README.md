@@ -23,6 +23,10 @@ To build the distribution
     grunt test
     grunt build
 
+To publish, git commit and
+
+    grunt publish
+
 ## Installation
 
 Using Bower:

@@ -253,7 +253,7 @@
                 //we skip feature with position ?, >, <
                 var re = /(\w+)\s+(\d+)\s+(\d+)\s*(.*)/;
                 var curft;
-                attrs.FT.split("\n").forEach(function(line) {
+                (attrs.FT ||'').split("\n").forEach(function(line) {
                     //console.log(line)
                     var m = re.exec(line);
                     if (m) {
