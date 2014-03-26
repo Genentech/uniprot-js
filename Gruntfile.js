@@ -7,6 +7,9 @@ module.exports = function(grunt) {
         shell: {
             bumpVersion: {
                 command: 'npm version patch'
+            },
+            npmPublish: {
+                command: 'npm publish'
             }
         },
         concat : {
@@ -66,7 +69,7 @@ module.exports = function(grunt) {
 
     grunt.registerTask('test', ['jshint', 'mochaTest']);
     grunt.registerTask('build', ['concat', 'jshint', 'uglify']);
-    grunt.registerTask('publish', ['shell:bumpVersion', 'build']);
+    grunt.registerTask('publish', ['shell:bumpVersion', 'build', 'shell:npmPublish']);
 
 
 };
