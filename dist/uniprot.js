@@ -5,26 +5,26 @@
  * Copyright (c) 2014, Genentech Inc.
  * @author masselot.alexandre@gene.com, Genentech 2013
  */
-( function(root) {
+( function (root) {
     //
     'use strict';
     if (root.Uniprot === undefined) {
         root.Uniprot = {};
     }
 
-    (function(){
-        var UniprotReader = function() {
+    (function () {
+        var UniprotReader = function () {
 
         };
         /**
          * split the text content into individual dat uniprot entries
          */
-        UniprotReader.prototype.datEntries = function(contents) {
+        UniprotReader.prototype.datEntries = function (contents) {
             var reEnd = /^\/\//;
 
             var ret = [];
             var cur = '';
-            contents.split("\n").forEach(function(line) {
+            contents.split("\n").forEach(function (line) {
                 if (reEnd.test(line)) {
                     ret.push(cur);
                     cur = '';
@@ -46,17 +46,17 @@
          * @param {String|Object} contents the dat text contents or the groupByField Map
          * @param {Object} options
          */
-        UniprotReader.prototype.buildCanonicalEntry = function(contents) {
+        UniprotReader.prototype.buildCanonicalEntry = function (contents) {
             var self = this;
             var attrs = (contents === Object(contents)) ? contents : self.groupByField(contents);
             return {
-                id : entryMapTo.id(attrs),
-                accessionCodes : entryMapTo.accessionCodes(attrs),
-                OS : entryMapTo.OS(attrs),
-                OC : entryMapTo.OC(attrs),
-                sequence : entryMapTo.sequence(attrs),
-                ncbi_taxid : entryMapTo.ncbi_taxid(attrs),
-                xrefs : entryMapTo.xrefs(attrs)
+                id: entryMapTo.id(attrs),
+                accessionCodes: entryMapTo.accessionCodes(attrs),
+                OS: entryMapTo.OS(attrs),
+                OC: entryMapTo.OC(attrs),
+                sequence: entryMapTo.sequence(attrs),
+                ncbi_taxid: entryMapTo.ncbi_taxid(attrs),
+                xrefs: entryMapTo.xrefs(attrs)
             };
         };
         /**
@@ -65,58 +65,62 @@
          * @param {String|Object} contents the dat text contents or the groupByField Map
          * @param {Object} options
          */
-        UniprotReader.prototype.buildIsoformEntries = function(contents) {
+        UniprotReader.prototype.buildIsoformEntries = function (contents) {
             var self = this;
             var attrs = (contents === Object(contents)) ? contents : self.groupByField(contents);
 
             var isoDescr = isoformDescriptions(attrs);
 
             if (isoDescr === undefined) {
-                isoDescr = [{
-                    id : entryMapTo.id(attrs),
-                    vsps : []
-                }];
+                isoDescr = [
+                    {
+                        id: entryMapTo.id(attrs),
+                        vsps: []
+                    }
+                ];
             }
 
             //assemble FT VAR_SEQ by FTId -> feature obj
             var ftVarseq = {};
-            entryMapTo.features(attrs).filter(function(ft) {
+            entryMapTo.features(attrs).filter(function (ft) {
                 return ft.type == 'VAR_SEQ';
-            }).forEach(function(ft) {
-                    if (ft.id === undefined) {
+            }).forEach(function (ft) {
+                if (ft.id === undefined) {
+                    throw {
+                        error: 'no FTId for ft ' + ft.comment + ' in ' + attrs.ID
+                    };
+                }
+                ftVarseq[ft.id] = ft;
+
+                if (ft.comment.indexOf('Missing') === 0) {
+                    ft.replacedBy = '';
+                } else {
+                    var m = /^([A-Z\s]+) \-> ([A-Z\s]+)/.exec(ft.comment);
+                    if (m) {
+                        ft.replacedBy = m[2].replace(/\s+/g, '');
+                    } else {
                         throw {
-                            error : 'no FTId for ft ' + ft.comment + ' in ' + attrs.ID
+                            error: 'cannot parse replacement sequence in ' + ft.comment + ' in ' + attrs.ID
                         };
                     }
-                    ftVarseq[ft.id] = ft;
+                }
+            });
 
-                    if (ft.comment.indexOf('Missing') === 0) {
-                        ft.replacedBy = '';
-                    } else {
-                        var m = /^([A-Z\s]+) \-> ([A-Z\s]+)/.exec(ft.comment);
-                        if (m) {
-                            ft.replacedBy = m[2].replace(/\s+/g, '');
-                        } else {
-                            throw {
-                                error : 'cannot parse replacement sequence in ' + ft.comment + ' in ' + attrs.ID
-                            };
-                        }
-                    }
-                });
-
-            return isoDescr.map(function(isod) {
+            return isoDescr.map(function (isod) {
                 try {
                     var entryId = entryMapTo.id(attrs);
                     var isoId = isod.id;
 
                     var isoform = {
-                        isoformOf : entryId,
-                        OS : entryMapTo.OS(attrs),
-                        OC : entryMapTo.OC(attrs),
-                        ncbi_taxid : entryMapTo.ncbi_taxid(attrs)
+                        OS: entryMapTo.OS(attrs),
+                        OC: entryMapTo.OC(attrs),
+                        ncbi_taxid: entryMapTo.ncbi_taxid(attrs)
                     };
                     if ((isod.vsps.length === 0) || (isoId == entryId)) {
                         isoform.isCanonical = true;
+                        isoform.xrefs = entryMapTo.xrefs(attrs);
+                    } else {
+                        isoform.isoformOf = entryId;
                     }
 
                     if (isod.vsps.length === 0) {
@@ -127,34 +131,34 @@
                         isoform.id = isoId;
                         isoform.accessionCodes = [isoId];
                     }
-                    isoform.sequence = self.applyFeaturesVSP(entryMapTo.sequence(attrs), isod.vsps.map(function(ftId) {
+                    isoform.sequence = self.applyFeaturesVSP(entryMapTo.sequence(attrs), isod.vsps.map(function (ftId) {
                         if (ftVarseq[ftId] === undefined) {
                             var message = isoId + " no VSP feature defined for " + ftId + ' (skipping isoform)';
                             console.error(message);
                             throw {
-                                err : message
+                                err: message
                             };
                         }
                         return ftVarseq[ftId];
                     }));
                     return isoform;
-                } catch(e) {
+                } catch (e) {
                     console.error(e);
                     return undefined;
                 }
-            }).filter(function(iso) {
-                    return iso !== undefined;
-                });
+            }).filter(function (iso) {
+                return iso !== undefined;
+            });
 
         };
 
-        UniprotReader.prototype.applyFeaturesVSP = function(sequence, vsps) {
+        UniprotReader.prototype.applyFeaturesVSP = function (sequence, vsps) {
             var retSeq = sequence;
-            vsps.sort(function(a, b) {
+            vsps.sort(function (a, b) {
                 return b.start - a.start;
-            }).forEach(function(vsp) {
-                    retSeq = retSeq.substring(0, vsp.start) + vsp.replacedBy + retSeq.substring(vsp.end + 1);
-                });
+            }).forEach(function (vsp) {
+                retSeq = retSeq.substring(0, vsp.start) + vsp.replacedBy + retSeq.substring(vsp.end + 1);
+            });
             return retSeq;
         };
         /**
@@ -164,12 +168,12 @@
          * a field 'sequence' get the full length sequence (no trim)
          * @param {text} one entry text content
          */
-        UniprotReader.prototype.groupByField = function(contents) {
+        UniprotReader.prototype.groupByField = function (contents) {
             var reField = /^([A-Z][A-Z])   (.*)/;
             var reSeq = /^     ([A-Z ]+)$/;
             var seq = '';
             var ret = {};
-            contents.split("\n").forEach(function(line) {
+            contents.split("\n").forEach(function (line) {
                 var m = reField.exec(line);
                 if (m) {
                     var k = m[1];
@@ -195,31 +199,31 @@
          * @param {Object} contents
          * @param {Object} fieldName
          */
-        UniprotReader.prototype.getField = function(contents, fieldName) {
+        UniprotReader.prototype.getField = function (contents, fieldName) {
             return entryMapTo[fieldName](this.groupByField(contents));
         };
         //private function to build field based to the groupByField function
         var entryMapTo = {
-            id : function(m) {
+            id: function (m) {
                 return m.ID.split(' ')[0];
             },
-            accessionCodes : function(attrs) {
-                return attrs.AC.split(/[\s;]+/).filter(function(n) {
+            accessionCodes: function (attrs) {
+                return attrs.AC.split(/[\s;]+/).filter(function (n) {
                     return n.trim() !== '';
                 });
             },
-            OS : function(m) {
+            OS: function (m) {
                 return m.OS.replace(/\.\s*$/, '');
             },
-            OC : function(attrs) {
-                return attrs.OC.replace(/\.\s*$/, '').split(/;\s*/).filter(function(n) {
+            OC: function (attrs) {
+                return attrs.OC.replace(/\.\s*$/, '').split(/;\s*/).filter(function (n) {
                     return n.trim() !== '';
                 });
             },
-            sequence : function(attrs) {
+            sequence: function (attrs) {
                 return attrs.sequence;
             },
-            ncbi_taxid : function(attrs) {
+            ncbi_taxid: function (attrs) {
                 var s = attrs.OX;
                 var re = /^NCBI_TaxID=(\d*);$/;
                 var m = re.exec(s);
@@ -230,9 +234,9 @@
             },
             //return CC lines, grouped by -!-
             // is onlye one is present, we have a string, if multiples, it start to bean array
-            cces : function(attrs) {
+            cces: function (attrs) {
                 var ret = {};
-                ("\n" + attrs.CC).split("\n-!- ").forEach(function(t) {
+                ("\n" + attrs.CC).split("\n-!- ").forEach(function (t) {
                     var i = t.indexOf(':');
                     var k = t.substr(0, i);
                     var cont = t.substr(i + 2).trim().replace(/^\s+/, '');
@@ -248,20 +252,20 @@
             },
             //an arry of features, each of them a map {tpye:, start:, end:, comment:}
             //multilines comments are wrapped around
-            features : function(attrs) {
+            features: function (attrs) {
                 var ret = [];
                 //we skip feature with position ?, >, <
                 var re = /(\w+)\s+(\d+)\s+(\d+)\s*(.*)/;
                 var curft;
-                (attrs.FT ||'').split("\n").forEach(function(line) {
+                (attrs.FT || '').split("\n").forEach(function (line) {
                     //console.log(line)
                     var m = re.exec(line);
                     if (m) {
                         curft = {
-                            type : m[1],
-                            start : parseInt(m[2], 10) - 1,
-                            end : parseInt(m[3], 10) - 1,
-                            comment : m[4]
+                            type: m[1],
+                            start: parseInt(m[2], 10) - 1,
+                            end: parseInt(m[3], 10) - 1,
+                            comment: m[4]
                         };
                         ret.push(curft);
                     } else {
@@ -270,7 +274,7 @@
                         }
                     }
                 });
-                ret.forEach(function(ft) {
+                ret.forEach(function (ft) {
                     var m = /\/FTId=(\w+)\.$/.exec(ft.comment);
                     if (m) {
                         ft.id = m[1];
@@ -278,34 +282,34 @@
                 });
                 return ret;
             },
-            xrefs : function(attrs) {
-                var pdbs = attrs.DR.split('\n').map(function(l) {
+            xrefs: function (attrs) {
+                var pdbs = attrs.DR.split('\n').map(function (l) {
                     return l.replace(/\.$/, '').split('; ');
-                }).filter(function(la) {
-                        return la[0] === 'PDB';
-                    }).map(function(la) {
-                        return {
-                            id : la[1],
-                            method : la[2],
-                            resolution : la[3],
-                            chains : la[4].split(', ').map(function(tk) {
-                                var m = /(.*)=(\d+)\-(\d+)/.exec(tk);
-                                if (!m) {
-                                    return undefined;
-                                }
-                                return {
-                                    name : m[1],
-                                    start : m[2] - 1,
-                                    end : m[3] - 1
-                                };
-                            }).filter(function(c) {
-                                    return c !== undefined;
-                                })
-                        };
-                    });
+                }).filter(function (la) {
+                    return la[0] === 'PDB';
+                }).map(function (la) {
+                    return {
+                        id: la[1],
+                        method: la[2],
+                        resolution: la[3],
+                        chains: la[4].split(', ').map(function (tk) {
+                            var m = /(.*)=(\d+)\-(\d+)/.exec(tk);
+                            if (!m) {
+                                return undefined;
+                            }
+                            return {
+                                name: m[1],
+                                start: m[2] - 1,
+                                end: m[3] - 1
+                            };
+                        }).filter(function (c) {
+                            return c !== undefined;
+                        })
+                    };
+                });
 
                 return {
-                    PDB : pdbs
+                    PDB: pdbs
                 };
             }
         };
@@ -319,7 +323,7 @@
          *
          * the next step will be to locate the VSP FT's and apply them
          */
-        var isoformDescriptions = function(attrs) {
+        var isoformDescriptions = function (attrs) {
             var aaAlts = entryMapTo.cces(attrs)['ALTERNATIVE PRODUCTS'];
             if (aaAlts === undefined) {
                 return undefined;
@@ -337,15 +341,15 @@
                     vsps = [];
                 }
                 ret.push({
-                    id : m[1],
-                    vsps : vsps
+                    id: m[1],
+                    vsps: vsps
                 });
             }
             return ret;
         };
 
         //node.js compatibility
-        if ( typeof exports !== 'undefined') {
+        if (typeof exports !== 'undefined') {
             exports.Reader = UniprotReader;
         }
 

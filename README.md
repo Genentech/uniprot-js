@@ -19,11 +19,15 @@ See the [project homepage](http://github.com/genentech/uniprot.js).
 Refer to the unit tests to see the library in action.
 
 To build the distribution
+
     npm install
     grunt test
     grunt build
 
 To publish, git commit and
+
+    grunt build
+    git commit -m 'build'
     npm version patch
     npm publish
 
