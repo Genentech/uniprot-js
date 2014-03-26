@@ -321,7 +321,7 @@ describe('UniprotReader', function() {
                 (isoforms.map(function(e) {
                         return e.id
                     }).sort()).should.eql(['CAC1C_RABIT', 'P15381-2', 'P15381-3', 'P15381-4', 'P15381-5']);
-
+                isoforms[0].isCanonical.should.equal(true)
                 isoforms.forEach(function(iso) {
                     (iso.sequence).should.equal(P15381Isoforms[iso.id])
                 })

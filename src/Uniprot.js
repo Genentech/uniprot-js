@@ -117,6 +117,7 @@
                     };
                     if ((isod.vsps.length === 0) || (isoId == entryId)) {
                         isoform.isCanonical = true;
+                        isoform.xrefs = entryMapTo.xrefs(attrs);
                     }
 
                     if (isod.vsps.length === 0) {

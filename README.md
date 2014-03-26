@@ -24,8 +24,8 @@ To build the distribution
     grunt build
 
 To publish, git commit and
-
-    grunt publish
+    npm version patch
+    npm publish
 
 ## Installation
 
