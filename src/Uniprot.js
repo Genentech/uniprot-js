@@ -114,13 +114,12 @@
                     var isoform = {
                         OS: entryMapTo.OS(attrs),
                         OC: entryMapTo.OC(attrs),
-                        ncbi_taxid: entryMapTo.ncbi_taxid(attrs)
+                        ncbi_taxid: entryMapTo.ncbi_taxid(attrs),
+                        isoformOf: entryId
                     };
                     if ((isod.vsps.length === 0) || (isoId == entryId)) {
                         isoform.isCanonical = true;
                         isoform.xrefs = entryMapTo.xrefs(attrs);
-                    } else {
-                        isoform.isoformOf = entryId;
                     }
 
                     if (isod.vsps.length === 0) {
