@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git://github.com/genentech/uniprot.git"
   },
-  "keywords": [],
+  "keywords": ["uniprot", "biojs"],
   "author": "Alexandre Masselot",
   "license": "MIT",
   "readmeFilename": "README.md",
