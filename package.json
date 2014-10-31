@@ -5,7 +5,7 @@
   "description": "Uniprot text file parser",
   "repository": {
     "type": "git",
-    "url": "git://github.com/genentech/uniprot.git"
+    "url": "git://github.com/genentech/uniprot-js.git"
   },
   "keywords": ["uniprot", "biojs"],
   "author": "Alexandre Masselot",
