@@ -224,7 +224,7 @@
             },
             ncbi_taxid: function (attrs) {
                 var s = attrs.OX;
-                var re = /^NCBI_TaxID=(\d*);$/;
+                var re = /^NCBI_TaxID=(\d*)(?:\s.*)?;$/;
                 var m = re.exec(s);
                 if (!m) {
                     throw attrs.ID + ": cannot extract ncbi_taxid from[" + s + "]";

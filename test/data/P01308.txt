@@ -14,7 +14,7 @@ OS   Homo sapiens (Human).
 OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
 OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
 OC   Catarrhini; Hominidae; Homo.
-OX   NCBI_TaxID=9606;
+OX   NCBI_TaxID=9606 {ECO:0000312|EMBL:AAL13806.1};
 RN   [1]
 RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
 RX   PubMed=6243748; DOI=10.1038/284026a0;

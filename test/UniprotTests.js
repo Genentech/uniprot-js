@@ -17,7 +17,7 @@ describe('UniprotReader', function() {
     })
     it('file dat length', function() {
         check('P01308.txt', function(txt) {
-            (txt.length).should.equal(40972);
+            (txt.length).should.equal(41002);
         })
     })
     describe('datEntries', function() {
