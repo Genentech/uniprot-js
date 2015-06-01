@@ -1,6 +1,6 @@
 {
   "name": "uniprot",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "dist/uniprot.min.js",
   "description": "Uniprot text file parser",
   "repository": {
