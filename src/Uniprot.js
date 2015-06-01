@@ -282,7 +282,7 @@
                 return ret;
             },
             xrefs: function (attrs) {
-                var pdbs = attrs.DR.split('\n').map(function (l) {
+                var pdbs = (attrs.DR ||'').split('\n').map(function (l) {
                     return l.replace(/\.$/, '').split('; ');
                 }).filter(function (la) {
                     return la[0] === 'PDB';
